@@ -1,0 +1,3 @@
+[submodule "gulp"]
+	path = gulp
+	url = https://github.com/4eyes/gulp.git
