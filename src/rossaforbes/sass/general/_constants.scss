@@ -1,0 +1,50 @@
+/**
+ * MEDIA QUERY
+ **/
+
+// Needed in rte.css
+// $ignoreMediaQueries: 0;
+
+// $min-width-desktop: 900px;
+// $min-width-tablet: 600px;
+
+
+// $desktop-only: 'min-width: #{$min-width-desktop}';
+// $desktop-and-tablet: 'min-width: #{$min-width-tablet}';
+// $tablet-only: 'min-width: #{$min-width-tablet}) and (max-width: #{$min-width-desktop - 1}';
+// $tablet-and-smartphone: 'max-width: #{$min-width-desktop - 1}';
+// $smartphone-only: 'max-width: #{$min-width-tablet - 1}';
+
+
+/**
+ * COLORS
+ **/
+
+$white: 		#ffffff;
+
+$tangerine: 	#f39100;
+$venetian-red: 	#e3000f;
+$cardinal: 		#b71a49;
+$cerulean: 		#006b94;
+$bondi-blue: 	#009bb4;
+$bahia: 		#94c11c;
+$golden-yellow: #ffdd00;
+
+$prussian-blue: #003448;
+$bahama-blue: 	#006b94;
+$peru-tan: 		#942900;
+
+$border-color: rgba( 0, 52, 72, 0.2 );
+
+// $font-family-regular: Arial, sans-serif;
+// $font-family-secondary: 'Dummy', Arial, sans-serif;
+
+$font-weight-light: 300;
+$font-weight-regular: 500;
+$font-weight-bold: 700;
+
+// $base-font-size: 10px;
+
+// $font-size-small: 11px;
+// $font-size-normal: 12px;
+// $font-size-large: 13px;

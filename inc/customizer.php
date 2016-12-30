@@ -252,51 +252,91 @@ function twentysixteen_get_color_schemes() {
 		'default' => array(
 			'label'  => __( 'Default', 'twentysixteen' ),
 			'colors' => array(
-				'#1a1a1a',
+				'#006b94', // background color
+				'#ffffff', // page-background color
+				'#942900', // link color
+				'#003448', // main-text color (title, headings, bodytext)
+				'#006b94', // secondary text color (sub-title, date)
+			),
+		),
+		// 'dark' => array(
+		// 	'label'  => __( 'Dark', 'twentysixteen' ),
+		// 	'colors' => array(
+		// 		'#262626',
+		// 		'#1a1a1a',
+		// 		'#9adffd',
+		// 		'#e5e5e5',
+		// 		'#c1c1c1',
+		// 	),
+		// ),
+		'cerulean' => array(
+			'label'  => __( 'Cerulean', 'twentysixteen' ),
+			'colors' => array(
+				'#006b94',
 				'#ffffff',
-				'#007acc',
-				'#1a1a1a',
-				'#686868',
+				'#942900',
+				'#003448',
+				'#006b94',
 			),
 		),
-		'dark' => array(
-			'label'  => __( 'Dark', 'twentysixteen' ),
+		'tangerine' => array(
+			'label'  => __( 'Tangerine', 'twentysixteen' ),
 			'colors' => array(
-				'#262626',
-				'#1a1a1a',
-				'#9adffd',
-				'#e5e5e5',
-				'#c1c1c1',
-			),
-		),
-		'gray' => array(
-			'label'  => __( 'Gray', 'twentysixteen' ),
-			'colors' => array(
-				'#616a73',
-				'#4d545c',
-				'#c7c7c7',
-				'#f2f2f2',
-				'#f2f2f2',
-			),
-		),
-		'red' => array(
-			'label'  => __( 'Red', 'twentysixteen' ),
-			'colors' => array(
+				'#f39100',
 				'#ffffff',
-				'#ff675f',
-				'#640c1f',
-				'#402b30',
-				'#402b30',
+				'#942900',
+				'#003448',
+				'#006b94',
 			),
 		),
-		'yellow' => array(
-			'label'  => __( 'Yellow', 'twentysixteen' ),
+		'golden-yellow' => array(
+			'label'  => __( 'Golden Yellow', 'twentysixteen' ),
 			'colors' => array(
-				'#3b3721',
-				'#ffef8e',
-				'#774e24',
-				'#3b3721',
-				'#5b4d3e',
+				'#ffdd00',
+				'#ffffff',
+				'#942900',
+				'#003448',
+				'#006b94',
+			),
+		),		
+		'venetian-red' => array(
+			'label'  => __( 'Venetian Red', 'twentysixteen' ),
+			'colors' => array(
+				'#e3000f',
+				'#ffffff',
+				'#942900',
+				'#003448',
+				'#006b94',
+			),
+		),
+		'cardinal' => array(
+			'label'  => __( 'Cardinal', 'twentysixteen' ),
+			'colors' => array(
+				'#b71a49',
+				'#ffffff',
+				'#942900',
+				'#003448',
+				'#006b94',
+			),
+		),
+		'bondi-blue' => array(
+			'label'  => __( 'Bondi Blue', 'twentysixteen' ),
+			'colors' => array(
+				'#009bb4',
+				'#ffffff',
+				'#942900',
+				'#003448',
+				'#006b94',
+			),
+		),
+		'bahia' => array(
+			'label'  => __( 'Bahia', 'twentysixteen' ),
+			'colors' => array(
+				'#94c11c',
+				'#ffffff',
+				'#942900',
+				'#003448',
+				'#006b94',
 			),
 		),
 	) );

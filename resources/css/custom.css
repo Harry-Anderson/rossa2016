@@ -1,0 +1,74 @@
+/**
+ * MEDIA QUERY
+ **/
+/**
+ * COLORS
+ **/
+/**
+ * GENERAL
+ */
+/**
+ * BASE
+ */
+/**
+ * LAYOUT
+ */
+/* line 5, ../../src/rossaforbes/sass/layout/_layout.scss */
+.comment-reply-title {
+  border-color: #ffdd00 !important;
+}
+
+/* line 10, ../../src/rossaforbes/sass/layout/_layout.scss */
+.search .page-header {
+  border-color: #f39100 !important;
+}
+
+/* line 28, ../../src/rossaforbes/sass/layout/_layout.scss */
+.archive .page-header {
+  border-color: #e3000f !important;
+}
+
+/* line 34, ../../src/rossaforbes/sass/layout/_layout.scss */
+.categories .page-header {
+  border-color: #009bb4 !important;
+}
+
+/* line 40, ../../src/rossaforbes/sass/layout/_layout.scss */
+.meta .page-header {
+  border-color: #94c11c !important;
+}
+
+/**
+ * MODULE
+ */
+/* line 1, ../../src/rossaforbes/sass/module/_widget.scss */
+.widget_search {
+  border-color: #f39100 !important;
+}
+
+/* line 5, ../../src/rossaforbes/sass/module/_widget.scss */
+.widget_recent_entries {
+  border-color: #e3000f !important;
+}
+
+/* line 9, ../../src/rossaforbes/sass/module/_widget.scss */
+.widget_recent_comments {
+  border-color: #b71a49 !important;
+}
+
+/* line 13, ../../src/rossaforbes/sass/module/_widget.scss */
+.widget_archive {
+  border-color: #006b94 !important;
+}
+
+/* line 17, ../../src/rossaforbes/sass/module/_widget.scss */
+.widget_categories {
+  border-color: #009bb4 !important;
+}
+
+/* line 21, ../../src/rossaforbes/sass/module/_widget.scss */
+.widget_meta {
+  border-color: #94c11c !important;
+}
+
+/*# sourceMappingURL=custom.css.map */

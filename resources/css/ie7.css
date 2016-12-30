@@ -1,0 +1,207 @@
+/*
+Theme Name: Twenty Sixteen
+Description: IE7 specific style.
+*/
+/* line 6, ../../src/rossaforbes/sass/ie7.scss */
+.site-inner {
+  max-width: 656px;
+}
+
+/* line 10, ../../src/rossaforbes/sass/ie7.scss */
+.post-navigation,
+.pagination,
+.image-navigation,
+.entry-header,
+.entry-summary,
+.entry-content,
+.entry-footer,
+.page-header,
+.page-content,
+.post-thumbnail,
+.content-bottom-widgets,
+.comments-area {
+  margin-right: 28px;
+  margin-left: 28px;
+  max-width: 100%;
+}
+
+/* line 27, ../../src/rossaforbes/sass/ie7.scss */
+.site-header,
+.sidebar,
+.site-footer,
+.widecolumn {
+  padding-right: 28px;
+  padding-left: 28px;
+}
+
+/* line 35, ../../src/rossaforbes/sass/ie7.scss */
+.search-submit {
+  height: auto;
+  margin-top: 28px;
+  padding: 15px 0 8px;
+  position: relative;
+  width: auto;
+}
+
+/* line 43, ../../src/rossaforbes/sass/ie7.scss */
+.search-submit .screen-reader-text {
+  height: auto;
+  position: relative !important;
+  width: auto;
+}
+
+/* line 49, ../../src/rossaforbes/sass/ie7.scss */
+.image-navigation .nav-previous,
+.image-navigation .nav-next,
+.comment-navigation .nav-previous,
+.comment-navigation .nav-next {
+  *display: inline;
+  zoom: 1;
+}
+
+/* line 57, ../../src/rossaforbes/sass/ie7.scss */
+.image-navigation .nav-previous + .nav-next,
+.comment-navigation .nav-previous + .nav-next {
+  margin-left: 14px;
+}
+
+/* line 62, ../../src/rossaforbes/sass/ie7.scss */
+.pagination .nav-links {
+  padding: 0;
+}
+
+/* line 66, ../../src/rossaforbes/sass/ie7.scss */
+.pagination .page-numbers {
+  line-height: 1;
+  margin: -4px 14px 0;
+  padding: 18px 0;
+}
+
+/* line 72, ../../src/rossaforbes/sass/ie7.scss */
+.pagination .prev,
+.pagination .next {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  height: auto;
+  left: 0;
+  line-height: 1;
+  margin: 0;
+  padding: 18px 14px;
+  position: relative;
+  right: 0;
+  text-transform: none;
+  width: auto;
+}
+
+/* line 88, ../../src/rossaforbes/sass/ie7.scss */
+.dropdown-toggle {
+  display: none;
+}
+
+/* line 92, ../../src/rossaforbes/sass/ie7.scss */
+.main-navigation ul ul {
+  display: block;
+}
+
+/* line 96, ../../src/rossaforbes/sass/ie7.scss */
+.social-navigation {
+  margin-top: 1.75em;
+}
+
+/* line 100, ../../src/rossaforbes/sass/ie7.scss */
+.social-navigation a {
+  height: auto;
+  padding: 3px 7px;
+  width: auto;
+}
+
+/* line 106, ../../src/rossaforbes/sass/ie7.scss */
+.social-navigation .screen-reader-text {
+  height: auto;
+  position: relative !important;
+  width: auto;
+}
+
+/* line 112, ../../src/rossaforbes/sass/ie7.scss */
+.site-header-main {
+  overflow: hidden;
+  zoom: 1;
+}
+
+/* line 117, ../../src/rossaforbes/sass/ie7.scss */
+.entry-footer > span {
+  margin-right: 14px;
+}
+
+/* line 121, ../../src/rossaforbes/sass/ie7.scss */
+.site-info .site-title {
+  font-size: 13px;
+  margin-right: 14px;
+}
+
+/* line 126, ../../src/rossaforbes/sass/ie7.scss */
+.gallery-item {
+  max-width: 30%;
+}
+
+/* line 130, ../../src/rossaforbes/sass/ie7.scss */
+.gallery-columns-1 .gallery-item {
+  max-width: 100%;
+}
+
+/* line 134, ../../src/rossaforbes/sass/ie7.scss */
+.gallery-columns-2 .gallery-item {
+  max-width: 46%;
+}
+
+/* line 138, ../../src/rossaforbes/sass/ie7.scss */
+.gallery-columns-4 .gallery-item {
+  max-width: 22%;
+}
+
+/* line 142, ../../src/rossaforbes/sass/ie7.scss */
+.gallery-columns-5 .gallery-item {
+  max-width: 17%;
+}
+
+/* line 146, ../../src/rossaforbes/sass/ie7.scss */
+.gallery-columns-6 .gallery-item {
+  max-width: 13.5%;
+}
+
+/* line 150, ../../src/rossaforbes/sass/ie7.scss */
+.gallery-columns-7 .gallery-item {
+  max-width: 11%;
+}
+
+/* line 154, ../../src/rossaforbes/sass/ie7.scss */
+.gallery-columns-8 .gallery-item {
+  max-width: 9.5%;
+}
+
+/* line 158, ../../src/rossaforbes/sass/ie7.scss */
+.gallery-columns-9 .gallery-item {
+  max-width: 8%;
+}
+
+/* line 162, ../../src/rossaforbes/sass/ie7.scss */
+.rtl .image-navigation .nav-previous + .nav-next,
+.rtl .comment-navigation .nav-previous + .nav-next {
+  margin-right: 14px;
+  margin-left: 0;
+}
+
+/* line 168, ../../src/rossaforbes/sass/ie7.scss */
+.rtl .entry-footer > span {
+  margin-right: 14px;
+  margin-left: 0;
+}
+
+/* line 173, ../../src/rossaforbes/sass/ie7.scss */
+.rtl .site-info .site-title {
+  margin-right: 0;
+  margin-left: 14px;
+}
+
+/*# sourceMappingURL=ie7.css.map */
