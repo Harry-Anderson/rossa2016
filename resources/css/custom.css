@@ -41,6 +41,35 @@
 /**
  * MODULE
  */
+/* line 2, ../../src/rossaforbes/sass/module/_nav.scss */
+.primary-menu > li:nth-child(7n) {
+  border-top-color: #f39100;
+}
+/* line 5, ../../src/rossaforbes/sass/module/_nav.scss */
+.primary-menu > li:nth-child(7n-1) {
+  border-top-color: #e3000f;
+}
+/* line 8, ../../src/rossaforbes/sass/module/_nav.scss */
+.primary-menu > li:nth-child(7n-2) {
+  border-top-color: #b71a49;
+}
+/* line 11, ../../src/rossaforbes/sass/module/_nav.scss */
+.primary-menu > li:nth-child(7n-3) {
+  border-top-color: #006b94;
+}
+/* line 14, ../../src/rossaforbes/sass/module/_nav.scss */
+.primary-menu > li:nth-child(7n-4) {
+  border-top-color: #009bb4;
+}
+/* line 17, ../../src/rossaforbes/sass/module/_nav.scss */
+.primary-menu > li:nth-child(7n-5) {
+  border-top-color: #94c11c;
+}
+/* line 20, ../../src/rossaforbes/sass/module/_nav.scss */
+.primary-menu > li:nth-child(7n-6) {
+  border-top-color: #ffdd00;
+}
+
 /* line 1, ../../src/rossaforbes/sass/module/_widget.scss */
 .widget_search {
   border-color: #f39100 !important;

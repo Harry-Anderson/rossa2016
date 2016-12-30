@@ -1,0 +1,23 @@
+.primary-menu > li {
+	&:nth-child(7n) {
+		border-top-color: $tangerine;
+	}
+	&:nth-child(7n-1) {
+		border-top-color: $venetian-red;
+	}
+	&:nth-child(7n-2) {
+		border-top-color: $cardinal;
+	}
+	&:nth-child(7n-3) {
+		border-top-color: $cerulean;
+	}
+	&:nth-child(7n-4) {
+		border-top-color: $bondi-blue;
+	}
+	&:nth-child(7n-5) {
+		border-top-color: $bahia;
+	}
+	&:nth-child(7n-6) {
+		border-top-color: $golden-yellow;
+	}
+}
