@@ -1,0 +1,180 @@
+.showcase-wrapper {
+	padding-left: 7.6923%;
+	padding-right: 7.6923%;
+    margin-top: 0.875em;
+	margin-bottom: 30px;
+	
+	&:after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+}
+
+.showcase-item {
+	width: 100%;
+	float: left;
+	position: relative;
+	color: $white;
+	padding: 20px;
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    font-size: 8pt;
+
+	&:before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "";
+		display: block;
+		opacity: 0;
+    	width: 100%;
+    	height: 100%;
+
+		-webkit-transition: opacity 150ms ease;
+		-moz-transition: opacity 150ms ease;
+		-o-transition: opacity 150ms ease;
+		transition: opacity 150ms ease;
+	}
+
+	&:hover {
+		color: $white;
+
+		&:before {
+			opacity: .2;
+		}
+	}
+
+	.icon {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		text-align: center;
+		display: table;
+
+		&:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-family: "Genericons";
+			font-size: 48px;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: normal;
+			line-height: 1;
+			speak: none;
+			text-align: center;
+			text-decoration: inherit;
+			text-transform: none;
+			display: none;
+			vertical-align: middle;
+		}
+	}
+}
+
+.showcase-book {
+	background-color: $bondi-blue;
+}
+
+.showcase-blog {
+	background-color: $cardinal;
+
+	&:hover {
+		background-color: $light-cardinal;
+	}
+	
+	.icon:before {
+		content: "\f413";
+	}
+}
+
+.showcase-interview {
+	background-color: $cerulean;
+
+	&:hover {
+		background-color: $light-cerulean;
+	}
+	
+	.icon:before {
+		content: "\f106";
+	}
+}
+
+.showcase-twitter {
+	background-color: $bahia;
+
+	&:hover {
+		background-color: $light-bahia;
+	}	
+	
+	.icon:before {
+		content: "\f202";
+	}
+}
+
+/**
+ * 14.1 - >= 710px
+ */
+
+@media screen and (min-width: 44.375em) {
+	.showcase-wrapper {
+		width: 100%;
+		margin-top: 1.3125em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.showcase-book {
+		display: none;
+	}
+}
+
+/**
+ * 14.3 - >= 910px
+ */
+
+@media screen and (min-width: 56.875em) {
+	.showcase-wrapper {
+		margin-top: 1.75em;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.showcase-item {
+		width: calc(100% / 3);
+		height: 200px;
+
+		&:hover {
+			.icon {
+				&:before {
+					display: table-cell;
+				}
+			}
+		}
+	}
+
+	.showcase-blog {
+		&:hover {
+			.icon {
+				background-color: $light-cardinal;
+			}
+		}
+	}
+
+	.showcase-interview {
+		&:hover {
+			.icon {
+				background-color: $light-cerulean;
+			}
+		}
+	}
+
+	.showcase-twitter {
+		&:hover {
+			.icon {
+				background-color: $light-bahia;
+			}
+		}
+	}
+}

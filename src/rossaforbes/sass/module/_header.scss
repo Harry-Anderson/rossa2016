@@ -1,4 +1,8 @@
 .site-title {
+	font-family: 'Oldenburg';
+	font-size: 2rem;
+	line-height: 1.45;
+
 	&:first-letter {
 		color: $cerulean;
 	}

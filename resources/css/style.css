@@ -63,19 +63,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * Normalizing styles have been helped along thanks to the fine work of
  * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
  */
-/* line 61, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 61, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 67, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 67, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body {
   margin: 0;
 }
 
-/* line 71, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 71, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 article,
 aside,
 details,
@@ -91,7 +91,7 @@ summary {
   display: block;
 }
 
-/* line 86, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 86, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 audio,
 canvas,
 progress,
@@ -100,40 +100,40 @@ video {
   vertical-align: baseline;
 }
 
-/* line 94, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 94, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 99, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 99, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 [hidden],
 template {
   display: none;
 }
 
-/* line 104, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 104, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 a {
   background-color: transparent;
 }
 
-/* line 108, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 108, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 112, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 112, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 b,
 strong {
   font-weight: 700;
 }
 
-/* line 117, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 117, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 small {
   font-size: 80%;
 }
 
-/* line 121, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 121, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 sub,
 sup {
   font-size: 75%;
@@ -142,39 +142,39 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 129, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 129, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 133, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 133, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 137, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 img {
   border: 0;
 }
 
-/* line 141, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 141, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 145, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 145, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 figure {
   margin: 0;
 }
 
-/* line 149, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 149, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 hr {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
-/* line 155, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 155, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 code,
 kbd,
 pre,
@@ -182,7 +182,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 162, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 162, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 button,
 input,
 optgroup,
@@ -193,17 +193,17 @@ textarea {
   margin: 0;
 }
 
-/* line 172, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 172, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 select {
   text-transform: none;
 }
 
-/* line 176, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 176, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 button {
   overflow: visible;
 }
 
-/* line 180, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 180, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 button,
 input,
 select,
@@ -211,7 +211,7 @@ textarea {
   max-width: 100%;
 }
 
-/* line 187, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 187, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -220,21 +220,21 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 195, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 195, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
   opacity: .5;
 }
 
-/* line 201, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 201, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 207, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 207, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -244,7 +244,7 @@ input[type="radio"] {
   padding: 0;
 }
 
-/* line 216, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 216, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-outer-spin-button,
 input[type="time"]::-webkit-inner-spin-button,
@@ -260,18 +260,18 @@ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 231, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 231, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
 }
 
-/* line 235, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 235, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 240, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 240, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 fieldset {
   border: 1px solid #d1d1d1;
   margin: 0 0 1.75em;
@@ -279,24 +279,24 @@ fieldset {
   padding: 0.875em;
 }
 
-/* line 247, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 247, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 fieldset > :last-child {
   margin-bottom: 0;
 }
 
-/* line 251, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 251, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 256, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 256, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 261, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 261, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 optgroup {
   font-weight: bold;
 }
@@ -304,7 +304,7 @@ optgroup {
 /**
  * 2.0 - Genericons
  */
-/* line 270, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 270, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .menu-item-has-children a:after,
 .social-navigation a:before,
 .dropdown-toggle:after,
@@ -334,7 +334,7 @@ optgroup {
 /**
  * 3.0 - Typography
  */
-/* line 301, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 301, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body,
 button,
 input,
@@ -347,7 +347,7 @@ textarea {
   line-height: 1.75;
 }
 
-/* line 313, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 313, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 h1,
 h2,
 h3,
@@ -360,12 +360,12 @@ h6 {
   text-rendering: optimizeLegibility;
 }
 
-/* line 325, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 325, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 p {
   margin: 0 0 1.75em;
 }
 
-/* line 329, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 329, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 dfn,
 cite,
 em,
@@ -373,7 +373,7 @@ i {
   font-style: italic;
 }
 
-/* line 336, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 336, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote {
   border: 0 solid #1a1a1a;
   border-left-width: 4px;
@@ -387,13 +387,13 @@ blockquote {
   padding: 0 0 0 1.263157895em;
 }
 
-/* line 349, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 349, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 354, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 354, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -401,12 +401,12 @@ q:after {
   content: "";
 }
 
-/* line 361, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 361, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote p {
   margin-bottom: 1.4736842105em;
 }
 
-/* line 365, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 365, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote cite,
 blockquote small {
   color: #1a1a1a;
@@ -416,37 +416,37 @@ blockquote small {
   line-height: 1.75;
 }
 
-/* line 374, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 374, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote cite:before,
 blockquote small:before {
   content: "\2014\00a0";
 }
 
-/* line 379, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 379, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote em,
 blockquote i,
 blockquote cite {
   font-style: normal;
 }
 
-/* line 385, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 385, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote strong,
 blockquote b {
   font-weight: 400;
 }
 
-/* line 390, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 390, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote > :last-child {
   margin-bottom: 0;
 }
 
-/* line 394, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 394, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 address {
   font-style: italic;
   margin: 0 0 1.75em;
 }
 
-/* line 399, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 399, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 code,
 kbd,
 tt,
@@ -456,7 +456,7 @@ pre {
   font-family: Inconsolata, monospace;
 }
 
-/* line 408, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 408, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 pre {
   border: 1px solid #d1d1d1;
   font-size: 16px;
@@ -471,20 +471,20 @@ pre {
   word-wrap: break-word;
 }
 
-/* line 422, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 422, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 code {
   background-color: #d1d1d1;
   padding: 0.125em 0.25em;
 }
 
-/* line 427, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 427, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 abbr,
 acronym {
   border-bottom: 1px dotted #d1d1d1;
   cursor: help;
 }
 
-/* line 433, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 433, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 mark,
 ins {
   background: #007acc;
@@ -493,7 +493,7 @@ ins {
   text-decoration: none;
 }
 
-/* line 441, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 441, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 big {
   font-size: 125%;
 }
@@ -501,14 +501,14 @@ big {
 /**
  * 4.0 - Elements
  */
-/* line 450, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 450, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 456, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 456, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 *,
 *:before,
 *:after {
@@ -518,13 +518,13 @@ html {
   box-sizing: inherit;
 }
 
-/* line 465, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 465, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body {
   background: #1a1a1a;
   /* Fallback for when there is no custom background color defined. */
 }
 
-/* line 470, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 470, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 hr {
   background-color: #d1d1d1;
   border: 0;
@@ -532,46 +532,46 @@ hr {
   margin: 0 0 1.75em;
 }
 
-/* line 477, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 477, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 ul,
 ol {
   margin: 0 0 1.75em 1.25em;
   padding: 0;
 }
 
-/* line 483, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 483, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 ul {
   list-style: disc;
 }
 
-/* line 487, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 487, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 ol {
   list-style: decimal;
   margin-left: 1.5em;
 }
 
-/* line 492, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 492, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 li > ul,
 li > ol {
   margin-bottom: 0;
 }
 
-/* line 497, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 497, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 dl {
   margin: 0 0 1.75em;
 }
 
-/* line 501, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 501, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 dt {
   font-weight: 700;
 }
 
-/* line 505, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 505, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 dd {
   margin: 0 0 1.75em;
 }
 
-/* line 509, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 509, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -580,19 +580,19 @@ img {
   vertical-align: middle;
 }
 
-/* line 517, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 517, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 del {
   opacity: 0.8;
 }
 
-/* line 521, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 521, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 table,
 th,
 td {
   border: 1px solid #d1d1d1;
 }
 
-/* line 527, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 527, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 table {
   border-collapse: separate;
   border-spacing: 0;
@@ -603,7 +603,7 @@ table {
   width: 100%;
 }
 
-/* line 537, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 537, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 caption,
 th,
 td {
@@ -611,37 +611,37 @@ td {
   text-align: left;
 }
 
-/* line 544, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 544, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 th {
   border-width: 0 1px 1px 0;
   font-weight: 700;
 }
 
-/* line 549, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 549, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 td {
   border-width: 0 1px 1px 0;
 }
 
-/* line 553, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 553, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 th,
 td {
   padding: 0.4375em;
 }
 
 /* Placeholder text color -- selectors need to be separate to work. */
-/* line 559, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 559, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 ::-webkit-input-placeholder {
   color: #686868;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
 }
 
-/* line 564, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 564, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 :-moz-placeholder {
   color: #686868;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
 }
 
-/* line 569, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 569, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 ::-moz-placeholder {
   color: #686868;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
@@ -649,7 +649,7 @@ td {
   /* Since FF19 lowers the opacity of the placeholder by default */
 }
 
-/* line 576, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 576, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 :-ms-input-placeholder {
   color: #686868;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
@@ -658,12 +658,12 @@ td {
 /**
  * 5.0 - Forms
  */
-/* line 586, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 586, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 input {
   line-height: normal;
 }
 
-/* line 590, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 590, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 button,
 button[disabled]:hover,
 button[disabled]:focus,
@@ -688,7 +688,7 @@ input[type="submit"][disabled]:focus {
   text-transform: uppercase;
 }
 
-/* line 614, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 614, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 button:hover,
 button:focus,
 input[type="button"]:hover,
@@ -700,7 +700,7 @@ input[type="submit"]:focus {
   background: #007acc;
 }
 
-/* line 625, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 625, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -709,7 +709,7 @@ input[type="submit"]:focus {
   outline-offset: -4px;
 }
 
-/* line 633, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 633, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
@@ -732,7 +732,7 @@ textarea {
   width: 100%;
 }
 
-/* line 655, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 655, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 input[type="date"]:focus,
 input[type="time"]:focus,
 input[type="datetime-local"]:focus,
@@ -752,12 +752,12 @@ textarea:focus {
   outline: 0;
 }
 
-/* line 674, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 674, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-password-form {
   margin-bottom: 1.75em;
 }
 
-/* line 678, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 678, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-password-form label {
   color: #686868;
   display: block;
@@ -770,29 +770,29 @@ textarea:focus {
   text-transform: uppercase;
 }
 
-/* line 690, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 690, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-password-form input[type="password"] {
   margin-top: 0.4375em;
 }
 
-/* line 694, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 694, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-password-form > :last-child {
   margin-bottom: 0;
 }
 
-/* line 698, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 698, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .search-form {
   position: relative;
 }
 
-/* line 702, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 702, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 input[type="search"].search-field {
   border-radius: 2px 0 0 2px;
   width: -webkit-calc(100% - 42px);
   width: calc(100% - 42px);
 }
 
-/* line 708, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 708, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .search-submit:before {
   content: "\f400";
   font-size: 24px;
@@ -802,7 +802,7 @@ input[type="search"].search-field {
   width: 40px;
 }
 
-/* line 717, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 717, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .search-submit {
   border-radius: 0 2px 2px 0;
   bottom: 0;
@@ -820,31 +820,31 @@ input[type="search"].search-field {
 /**
  * 6.1 - Links
  */
-/* line 737, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 737, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 a {
   color: #007acc;
   text-decoration: none;
 }
 
-/* line 742, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 742, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 a:hover,
 a:focus,
 a:active {
   color: #686868;
 }
 
-/* line 748, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 748, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 752, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 752, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 a:hover,
 a:active {
   outline: 0;
 }
 
-/* line 757, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 757, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content a,
 .entry-summary a,
 .taxonomy-description a,
@@ -857,7 +857,7 @@ a:active {
   box-shadow: 0 1px 0 0 currentColor;
 }
 
-/* line 769, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 769, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content a:hover,
 .entry-content a:focus,
 .entry-summary a:hover,
@@ -878,7 +878,7 @@ a:active {
 /**
  * 6.2 - Menus
  */
-/* line 791, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 791, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-header-menu {
   display: none;
   -webkit-flex: 0 1 100%;
@@ -887,35 +887,35 @@ a:active {
   margin: 0.875em 0;
 }
 
-/* line 799, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 799, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-header-menu.toggled-on,
 .no-js .site-header-menu {
   display: block;
 }
 
-/* line 804, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 804, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
 }
 
-/* line 808, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 808, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-footer .main-navigation {
   margin-bottom: 1.75em;
 }
 
-/* line 812, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 812, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation ul {
   list-style: none;
   margin: 0;
 }
 
-/* line 817, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 817, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation li {
   border-top: 1px solid #d1d1d1;
   position: relative;
 }
 
-/* line 822, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 822, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation a {
   color: #1a1a1a;
   display: block;
@@ -924,45 +924,45 @@ a:active {
   padding: 0.84375em 0;
 }
 
-/* line 830, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 830, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation a:hover,
 .main-navigation a:focus {
   color: #007acc;
 }
 
-/* line 835, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 835, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation .current-menu-item > a,
 .main-navigation .current-menu-ancestor > a {
   font-weight: 700;
 }
 
-/* line 840, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 840, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation ul ul {
   display: none;
   margin-left: 0.875em;
 }
 
-/* line 845, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 845, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .no-js .main-navigation ul ul {
   display: block;
 }
 
-/* line 849, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 849, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation ul .toggled-on {
   display: block;
 }
 
-/* line 853, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 853, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation .primary-menu {
   border-bottom: 1px solid #d1d1d1;
 }
 
-/* line 857, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 857, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .main-navigation .menu-item-has-children > a {
   margin-right: 56px;
 }
 
-/* line 861, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 861, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .dropdown-toggle {
   background-color: transparent;
   border: 0;
@@ -978,7 +978,7 @@ a:active {
   width: 48px;
 }
 
-/* line 876, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 876, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .dropdown-toggle:after {
   border: 0 solid #d1d1d1;
   border-left-width: 1px;
@@ -989,52 +989,52 @@ a:active {
   width: 48px;
 }
 
-/* line 886, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 886, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .dropdown-toggle:hover,
 .dropdown-toggle:focus {
   background-color: transparent;
   color: #007acc;
 }
 
-/* line 892, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 892, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .dropdown-toggle:focus {
   outline: thin dotted;
   outline-offset: -1px;
 }
 
-/* line 897, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 897, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .dropdown-toggle:focus:after {
   border-color: transparent;
 }
 
-/* line 901, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 901, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .dropdown-toggle.toggled-on:after {
   content: "\f432";
 }
 
-/* line 905, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 905, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-header .main-navigation + .social-navigation {
   margin-top: 1.75em;
 }
 
-/* line 909, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 909, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-footer .social-navigation {
   margin-bottom: 1.75em;
 }
 
-/* line 913, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 913, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation ul {
   list-style: none;
   margin: 0 0 -0.4375em;
 }
 
-/* line 918, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 918, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation li {
   float: left;
   margin: 0 0.4375em 0.4375em 0;
 }
 
-/* line 923, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 923, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a {
   border: 1px solid #d1d1d1;
   border-radius: 50%;
@@ -1045,7 +1045,7 @@ a:active {
   width: 35px;
 }
 
-/* line 933, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 933, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a:before {
   content: "\f415";
   height: 33px;
@@ -1054,149 +1054,149 @@ a:active {
   width: 33px;
 }
 
-/* line 941, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 941, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a:hover:before,
 .social-navigation a:focus:before {
   color: #007acc;
 }
 
-/* line 946, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 946, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="codepen.io"]:before {
   content: "\f216";
 }
 
-/* line 950, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 950, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="digg.com"]:before {
   content: "\f221";
 }
 
-/* line 954, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 954, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="dribbble.com"]:before {
   content: "\f201";
 }
 
-/* line 958, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 958, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="dropbox.com"]:before {
   content: "\f225";
 }
 
-/* line 962, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 962, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="facebook.com"]:before {
   content: "\f203";
 }
 
-/* line 966, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 966, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="flickr.com"]:before {
   content: "\f211";
 }
 
-/* line 970, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 970, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="foursquare.com"]:before {
   content: "\f226";
 }
 
-/* line 974, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 974, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="plus.google.com"]:before {
   content: "\f206";
 }
 
-/* line 978, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 978, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="github.com"]:before {
   content: "\f200";
 }
 
-/* line 982, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 982, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="instagram.com"]:before {
   content: "\f215";
 }
 
-/* line 986, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 986, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="linkedin.com"]:before {
   content: "\f208";
 }
 
-/* line 990, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 990, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="path.com"]:before {
   content: "\f219";
 }
 
-/* line 994, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 994, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="pinterest.com"]:before {
   content: "\f210";
 }
 
-/* line 998, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 998, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="getpocket.com"]:before {
   content: "\f224";
 }
 
-/* line 1002, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1002, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="polldaddy.com"]:before {
   content: "\f217";
 }
 
-/* line 1006, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1006, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="reddit.com"]:before {
   content: "\f222";
 }
 
-/* line 1010, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1010, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="skype.com"]:before {
   content: "\f220";
 }
 
-/* line 1014, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1014, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="stumbleupon.com"]:before {
   content: "\f223";
 }
 
-/* line 1018, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1018, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="tumblr.com"]:before {
   content: "\f214";
 }
 
-/* line 1022, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1022, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="twitter.com"]:before {
   content: "\f202";
 }
 
-/* line 1026, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1026, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="vimeo.com"]:before {
   content: "\f212";
 }
 
-/* line 1030, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1030, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="wordpress.com"]:before,
 .social-navigation a[href*="wordpress.org"]:before {
   content: "\f205";
 }
 
-/* line 1035, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1035, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="youtube.com"]:before {
   content: "\f213";
 }
 
-/* line 1039, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1039, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href^="mailto:"]:before {
   content: "\f410";
 }
 
-/* line 1043, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1043, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="spotify.com"]:before {
   content: "\f515";
 }
 
-/* line 1047, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1047, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href*="twitch.tv"]:before {
   content: "\f516";
 }
 
-/* line 1051, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1051, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .social-navigation a[href$="/feed/"]:before {
   content: "\f413";
 }
 
-/* line 1055, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1055, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-navigation {
   border-top: 4px solid #1a1a1a;
   border-bottom: 4px solid #1a1a1a;
@@ -1205,19 +1205,19 @@ a:active {
   margin: 0 7.6923% 3.5em;
 }
 
-/* line 1063, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1063, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-navigation a {
   color: #1a1a1a;
   display: block;
   padding: 1.75em 0;
 }
 
-/* line 1069, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1069, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-navigation span {
   display: block;
 }
 
-/* line 1073, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1073, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-navigation .meta-nav {
   color: #686868;
   font-size: 13px;
@@ -1228,7 +1228,7 @@ a:active {
   text-transform: uppercase;
 }
 
-/* line 1083, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1083, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-navigation .post-title {
   display: inline;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
@@ -1239,18 +1239,18 @@ a:active {
   text-rendering: optimizeLegibility;
 }
 
-/* line 1093, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1093, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-navigation a:hover .post-title,
 .post-navigation a:focus .post-title {
   color: #007acc;
 }
 
-/* line 1098, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1098, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-navigation div + div {
   border-top: 4px solid #1a1a1a;
 }
 
-/* line 1102, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1102, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination {
   border-top: 4px solid #1a1a1a;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
@@ -1261,7 +1261,7 @@ a:active {
   position: relative;
 }
 
-/* line 1112, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1112, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination:before,
 .pagination:after {
   background-color: #1a1a1a;
@@ -1273,29 +1273,29 @@ a:active {
   z-index: 0;
 }
 
-/* line 1123, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1123, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination:before {
   right: 0;
 }
 
-/* line 1127, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1127, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination:after {
   right: 54px;
 }
 
-/* line 1131, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1131, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination a:hover,
 .pagination a:focus {
   color: #1a1a1a;
 }
 
-/* line 1136, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1136, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .nav-links {
   padding-right: 106px;
   position: relative;
 }
 
-/* line 1141, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1141, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .nav-links:before,
 .pagination .nav-links:after {
   color: #fff;
@@ -1307,25 +1307,25 @@ a:active {
   z-index: 1;
 }
 
-/* line 1152, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1152, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .nav-links:before {
   content: "\f429";
   right: -1px;
 }
 
-/* line 1157, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1157, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .nav-links:after {
   content: "\f430";
   right: 55px;
 }
 
 /* reset screen-reader-text */
-/* line 1163, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1163, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .current .screen-reader-text {
   position: static !important;
 }
 
-/* line 1167, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1167, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .page-numbers {
   display: none;
   letter-spacing: 0.013157895em;
@@ -1335,13 +1335,13 @@ a:active {
   text-transform: uppercase;
 }
 
-/* line 1176, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1176, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .current {
   display: inline-block;
   font-weight: 700;
 }
 
-/* line 1181, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1181, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .prev,
 .pagination .next {
   background-color: #1a1a1a;
@@ -1357,7 +1357,7 @@ a:active {
   z-index: 2;
 }
 
-/* line 1196, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1196, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .prev:before,
 .pagination .next:before {
   font-size: 32px;
@@ -1367,7 +1367,7 @@ a:active {
   width: 53px;
 }
 
-/* line 1205, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1205, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .prev:hover,
 .pagination .prev:focus,
 .pagination .next:hover,
@@ -1376,37 +1376,37 @@ a:active {
   color: #fff;
 }
 
-/* line 1213, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1213, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .prev:focus,
 .pagination .next:focus {
   outline: 0;
 }
 
-/* line 1218, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1218, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .prev {
   right: 54px;
 }
 
-/* line 1222, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1222, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .prev:before {
   content: "\f430";
   left: -1px;
   top: -1px;
 }
 
-/* line 1228, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1228, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .next {
   right: 0;
 }
 
-/* line 1232, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1232, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .pagination .next:before {
   content: "\f429";
   right: -1px;
   top: -1px;
 }
 
-/* line 1238, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1238, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .image-navigation,
 .comment-navigation {
   border-top: 1px solid #d1d1d1;
@@ -1420,19 +1420,19 @@ a:active {
   padding: 1.0769230769em 0;
 }
 
-/* line 1251, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1251, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-navigation {
   margin-right: 0;
   margin-left: 0;
 }
 
-/* line 1256, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1256, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comments-title + .comment-navigation {
   border-bottom: 0;
   margin-bottom: 0;
 }
 
-/* line 1261, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1261, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .image-navigation .nav-previous:not(:empty),
 .image-navigation .nav-next:not(:empty),
 .comment-navigation .nav-previous:not(:empty),
@@ -1440,7 +1440,7 @@ a:active {
   display: inline-block;
 }
 
-/* line 1268, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1268, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .image-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before,
 .comment-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before {
   content: "\002f";
@@ -1453,7 +1453,7 @@ a:active {
  * 7.0 - Accessibility
  */
 /* Text meant only for screen readers */
-/* line 1282, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1282, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .says,
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -1466,7 +1466,7 @@ a:active {
 }
 
 /* must have higher specificity than alternative color schemes inline styles */
-/* line 1294, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1294, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site .skip-link {
   background-color: #f1f1f1;
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -1483,13 +1483,13 @@ a:active {
   top: -9999em;
 }
 
-/* line 1310, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1310, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .logged-in .site .skip-link {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 1315, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1315, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site .skip-link:focus {
   clip: auto;
   height: auto;
@@ -1502,36 +1502,36 @@ a:active {
 /**
  * 8.0 - Alignments
  */
-/* line 1329, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1329, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .alignleft {
   float: left;
   margin: 0.375em 1.75em 1.75em 0;
 }
 
-/* line 1334, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1334, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .alignright {
   float: right;
   margin: 0.375em 0 1.75em 1.75em;
 }
 
-/* line 1339, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1339, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .aligncenter {
   clear: both;
   display: block;
   margin: 0 auto 1.75em;
 }
 
-/* line 1345, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1345, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote.alignleft {
   margin: 0.3157894737em 1.4736842105em 1.473684211em 0;
 }
 
-/* line 1349, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1349, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote.alignright {
   margin: 0.3157894737em 0 1.473684211em 1.4736842105em;
 }
 
-/* line 1353, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1353, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 blockquote.aligncenter {
   margin-bottom: 1.473684211em;
 }
@@ -1539,7 +1539,7 @@ blockquote.aligncenter {
 /**
  * 9.0 - Clearings
  */
-/* line 1362, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1362, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .clear:before,
 .clear:after,
 blockquote:before,
@@ -1566,7 +1566,7 @@ blockquote:after,
   display: table;
 }
 
-/* line 1388, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1388, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .clear:after,
 blockquote:after,
 .entry-content:after,
@@ -1584,20 +1584,20 @@ blockquote:after,
 /**
  * 10.0 - Widgets
  */
-/* line 1407, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1407, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget {
   border-top: 4px solid #1a1a1a;
   margin-bottom: 3.5em;
   padding-top: 1.75em;
 }
 
-/* line 1413, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1413, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget-area > :last-child,
 .widget > :last-child {
   margin-bottom: 0;
 }
 
-/* line 1418, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1418, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget .widget-title {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
   font-size: 16px;
@@ -1608,23 +1608,23 @@ blockquote:after,
   text-transform: uppercase;
 }
 
-/* line 1428, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1428, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget .widget-title:empty {
   margin-bottom: 0;
 }
 
-/* line 1432, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1432, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget-title a {
   color: #1a1a1a;
 }
 
 /* Calendar widget */
-/* line 1437, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1437, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget.widget_calendar table {
   margin: 0;
 }
 
-/* line 1441, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1441, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_calendar td,
 .widget_calendar th {
   line-height: 2.5625;
@@ -1632,13 +1632,13 @@ blockquote:after,
   text-align: center;
 }
 
-/* line 1448, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1448, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_calendar caption {
   font-weight: 900;
   margin-bottom: 1.75em;
 }
 
-/* line 1453, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1453, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_calendar tbody a {
   background-color: #007acc;
   color: #fff;
@@ -1646,7 +1646,7 @@ blockquote:after,
   font-weight: 700;
 }
 
-/* line 1460, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1460, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_calendar tbody a:hover,
 .widget_calendar tbody a:focus {
   background-color: #686868;
@@ -1654,7 +1654,7 @@ blockquote:after,
 }
 
 /* Recent Posts widget */
-/* line 1467, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1467, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_recent_entries .post-date {
   color: #686868;
   display: block;
@@ -1665,18 +1665,18 @@ blockquote:after,
   margin-bottom: 0.538461538em;
 }
 
-/* line 1477, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1477, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_recent_entries li:last-child .post-date {
   margin-bottom: 0;
 }
 
 /* RSS widget */
-/* line 1482, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1482, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_rss .rsswidget img {
   margin-top: -0.375em;
 }
 
-/* line 1486, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1486, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_rss .rss-date,
 .widget_rss cite {
   color: #686868;
@@ -1689,18 +1689,18 @@ blockquote:after,
   margin-bottom: 0.538461538em;
 }
 
-/* line 1498, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1498, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_rss .rssSummary:last-child {
   margin-bottom: 2.1538461538em;
 }
 
-/* line 1502, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1502, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widget_rss li:last-child :last-child {
   margin-bottom: 0;
 }
 
 /* Tag Cloud widget */
-/* line 1507, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1507, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .tagcloud a {
   border: 1px solid #d1d1d1;
   border-radius: 2px;
@@ -1711,7 +1711,7 @@ blockquote:after,
   padding: 0.5625em 0.4375em 0.5em;
 }
 
-/* line 1517, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1517, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .tagcloud a:hover,
 .tagcloud a:focus {
   border-color: #007acc;
@@ -1722,35 +1722,35 @@ blockquote:after,
 /**
  * 11.0 - Content
  */
-/* line 1529, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1529, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site {
   background-color: #fff;
 }
 
-/* line 1533, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1533, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-inner {
   margin: 0 auto;
   max-width: 1320px;
   position: relative;
 }
 
-/* line 1539, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1539, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-content {
   word-wrap: break-word;
 }
 
 /* Do not show the outline on the skip link target. */
-/* line 1544, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1544, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 #content[tabindex="-1"]:focus {
   outline: 0;
 }
 
-/* line 1548, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1548, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-main {
   margin-bottom: 3.5em;
 }
 
-/* line 1552, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1552, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-main > :last-child {
   margin-bottom: 0;
 }
@@ -1758,12 +1758,12 @@ blockquote:after,
 /**
  * 11.1 - Header
  */
-/* line 1561, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1561, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-header {
   padding: 2.625em 7.6923%;
 }
 
-/* line 1565, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1565, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-header-main {
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1776,7 +1776,7 @@ blockquote:after,
   flex-wrap: wrap;
 }
 
-/* line 1577, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1577, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-branding {
   margin: 0.875em auto 0.875em 0;
   /* Avoid overflowing wide custom logo in small screens in Firefox and IEs */
@@ -1785,17 +1785,17 @@ blockquote:after,
   overflow: hidden;
 }
 
-/* line 1585, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1585, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .custom-logo-link {
   display: block;
 }
 
-/* line 1589, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1589, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .custom-logo {
   max-width: 180px;
 }
 
-/* line 1593, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1593, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-title {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
   font-size: 23px;
@@ -1805,23 +1805,23 @@ blockquote:after,
   margin: 0;
 }
 
-/* line 1602, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1602, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-branding .site-title a {
   color: #1a1a1a;
 }
 
-/* line 1606, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1606, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-branding .site-title a:hover,
 .site-branding .site-title a:focus {
   color: #007acc;
 }
 
-/* line 1611, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1611, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .wp-custom-logo .site-title {
   margin-top: 0.608695652em;
 }
 
-/* line 1615, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1615, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-description {
   color: #686868;
   display: none;
@@ -1832,7 +1832,7 @@ blockquote:after,
   margin: 0.538461538em 0 0;
 }
 
-/* line 1625, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1625, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .menu-toggle {
   background-color: transparent;
   border: 1px solid #d1d1d1;
@@ -1843,12 +1843,12 @@ blockquote:after,
   padding: 0.769230769em;
 }
 
-/* line 1635, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1635, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .no-js .menu-toggle {
   display: none;
 }
 
-/* line 1639, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1639, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .menu-toggle:hover,
 .menu-toggle:focus {
   background-color: transparent;
@@ -1856,7 +1856,7 @@ blockquote:after,
   color: #007acc;
 }
 
-/* line 1646, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1646, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .menu-toggle.toggled-on,
 .menu-toggle.toggled-on:hover,
 .menu-toggle.toggled-on:focus {
@@ -1865,28 +1865,28 @@ blockquote:after,
   color: #fff;
 }
 
-/* line 1654, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1654, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .menu-toggle:focus {
   outline: 0;
 }
 
-/* line 1658, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1658, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .menu-toggle.toggled-on:focus {
   outline: thin dotted;
 }
 
-/* line 1662, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1662, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .header-image {
   clear: both;
   margin: 0.875em 0;
 }
 
-/* line 1667, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1667, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .header-image a {
   display: block;
 }
 
-/* line 1671, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1671, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .header-image a:hover img,
 .header-image a:focus img {
   opacity: 0.85;
@@ -1895,13 +1895,13 @@ blockquote:after,
 /**
  * 11.2 - Posts and pages
  */
-/* line 1680, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1680, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-main > article {
   margin-bottom: 3.5em;
   position: relative;
 }
 
-/* line 1685, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1685, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-header,
 .entry-summary,
 .entry-content,
@@ -1911,7 +1911,7 @@ blockquote:after,
   margin-left: 7.6923%;
 }
 
-/* line 1694, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1694, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-title {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
   font-size: 28px;
@@ -1921,46 +1921,46 @@ blockquote:after,
   margin-bottom: 1em;
 }
 
-/* line 1703, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1703, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-title a {
   color: #1a1a1a;
 }
 
-/* line 1707, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1707, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-title a:hover,
 .entry-title a:focus {
   color: #007acc;
 }
 
-/* line 1712, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1712, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-thumbnail {
   display: block;
   margin: 0 7.6923% 1.75em;
 }
 
-/* line 1717, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1717, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-thumbnail img {
   display: block;
 }
 
-/* line 1721, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1721, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .no-sidebar .post-thumbnail img {
   margin: 0 auto;
 }
 
-/* line 1725, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1725, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 a.post-thumbnail:hover,
 a.post-thumbnail:focus {
   opacity: 0.85;
 }
 
-/* line 1730, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1730, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content,
 .entry-summary {
   border-color: #d1d1d1;
 }
 
-/* line 1735, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1735, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content h1,
 .entry-summary h1,
 .comment-content h1,
@@ -1972,7 +1972,7 @@ a.post-thumbnail:focus {
   margin-bottom: 1em;
 }
 
-/* line 1746, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1746, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content h2,
 .entry-summary h2,
 .comment-content h2,
@@ -1984,7 +1984,7 @@ a.post-thumbnail:focus {
   margin-bottom: 1.2173913043em;
 }
 
-/* line 1757, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1757, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content h3,
 .entry-summary h3,
 .comment-content h3,
@@ -1996,7 +1996,7 @@ a.post-thumbnail:focus {
   margin-bottom: 1.4736842105em;
 }
 
-/* line 1768, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1768, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content h4,
 .entry-content h5,
 .entry-content h6,
@@ -2016,7 +2016,7 @@ a.post-thumbnail:focus {
   margin-bottom: 1.75em;
 }
 
-/* line 1787, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1787, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content h4,
 .entry-summary h4,
 .comment-content h4,
@@ -2025,7 +2025,7 @@ a.post-thumbnail:focus {
   text-transform: uppercase;
 }
 
-/* line 1795, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1795, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content h6,
 .entry-summary h6,
 .comment-content h6,
@@ -2033,7 +2033,7 @@ a.post-thumbnail:focus {
   font-style: italic;
 }
 
-/* line 1802, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1802, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content h1,
 .entry-content h2,
 .entry-content h3,
@@ -2061,7 +2061,7 @@ a.post-thumbnail:focus {
   font-weight: 900;
 }
 
-/* line 1829, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1829, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content h1:first-child,
 .entry-content h2:first-child,
 .entry-content h3:first-child,
@@ -2089,7 +2089,7 @@ a.post-thumbnail:focus {
   margin-top: 0;
 }
 
-/* line 1856, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1856, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .post-navigation .post-title,
 .entry-title,
 .comments-title {
@@ -2099,7 +2099,7 @@ a.post-thumbnail:focus {
   hyphens: auto;
 }
 
-/* line 1865, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1865, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary {
   color: #686868;
   font-size: 19px;
@@ -2108,12 +2108,12 @@ body:not(.search-results) .entry-summary {
   margin-bottom: 1.4736842105em;
 }
 
-/* line 1873, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1873, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-header + .entry-summary {
   margin-top: -0.736842105em;
 }
 
-/* line 1877, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1877, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary p,
 body:not(.search-results) .entry-summary address,
 body:not(.search-results) .entry-summary hr,
@@ -2125,50 +2125,50 @@ body:not(.search-results) .entry-summary table {
   margin-bottom: 1.4736842105em;
 }
 
-/* line 1888, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1888, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary li > ul,
 body:not(.search-results) .entry-summary li > ol {
   margin-bottom: 0;
 }
 
-/* line 1893, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1893, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary th,
 body:not(.search-results) .entry-summary td {
   padding: 0.3684210526em;
 }
 
-/* line 1898, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1898, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary fieldset {
   margin-bottom: 1.4736842105em;
   padding: 0.3684210526em;
 }
 
-/* line 1903, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1903, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary blockquote {
   border-color: currentColor;
 }
 
-/* line 1907, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1907, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary blockquote > :last-child {
   margin-bottom: 0;
 }
 
-/* line 1911, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1911, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary .alignleft {
   margin: 0.2631578947em 1.4736842105em 1.4736842105em 0;
 }
 
-/* line 1915, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1915, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary .alignright {
   margin: 0.2631578947em 0 1.4736842105em 1.4736842105em;
 }
 
-/* line 1919, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1919, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body:not(.search-results) .entry-summary .aligncenter {
   margin-bottom: 1.4736842105em;
 }
 
-/* line 1923, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1923, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content > :last-child,
 .entry-summary > :last-child,
 body:not(.search-results) .entry-summary > :last-child,
@@ -2178,12 +2178,12 @@ body:not(.search-results) .entry-summary > :last-child,
   margin-bottom: 0;
 }
 
-/* line 1932, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1932, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .more-link {
   white-space: nowrap;
 }
 
-/* line 1936, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1936, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .author-info {
   border-color: inherit;
   border-style: solid;
@@ -2193,7 +2193,7 @@ body:not(.search-results) .entry-summary > :last-child,
   padding-bottom: 1.75em;
 }
 
-/* line 1945, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1945, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .author-avatar .avatar {
   float: left;
   height: 42px;
@@ -2201,12 +2201,12 @@ body:not(.search-results) .entry-summary > :last-child,
   width: 42px;
 }
 
-/* line 1952, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1952, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .author-description > :last-child {
   margin-bottom: 0;
 }
 
-/* line 1956, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1956, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content .author-title {
   clear: none;
   font-size: 16px;
@@ -2216,7 +2216,7 @@ body:not(.search-results) .entry-summary > :last-child,
   margin: 0;
 }
 
-/* line 1965, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1965, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .author-bio {
   color: #686868;
   font-size: 13px;
@@ -2226,12 +2226,12 @@ body:not(.search-results) .entry-summary > :last-child,
   overflow: hidden;
 }
 
-/* line 1974, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1974, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .author-link {
   white-space: nowrap;
 }
 
-/* line 1978, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1978, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-footer {
   color: #686868;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
@@ -2241,23 +2241,23 @@ body:not(.search-results) .entry-summary > :last-child,
   margin-top: 2.1538461538em;
 }
 
-/* line 1987, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1987, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-footer:empty {
   margin: 0;
 }
 
-/* line 1991, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1991, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-footer a {
   color: #686868;
 }
 
-/* line 1995, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 1995, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-footer a:hover,
 .entry-footer a:focus {
   color: #007acc;
 }
 
-/* line 2000, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2000, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-footer > span:not(:last-child):after {
   content: "\002f";
   display: inline-block;
@@ -2265,14 +2265,14 @@ body:not(.search-results) .entry-summary > :last-child,
   padding: 0 0.538461538em;
 }
 
-/* line 2007, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2007, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-footer .avatar {
   height: 21px;
   margin: -0.1538461538em 0.5384615385em 0 0;
   width: 21px;
 }
 
-/* line 2013, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2013, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .sticky-post {
   color: #686868;
   display: block;
@@ -2289,38 +2289,38 @@ body:not(.search-results) .entry-summary > :last-child,
  * IE8 and earlier will drop any block with CSS3 selectors.
  * Do not combine these styles with the next block.
  */
-/* line 2029, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2029, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .updated:not(.published) {
   display: none;
 }
 
-/* line 2033, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2033, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .sticky .posted-on,
 .byline {
   display: none;
 }
 
-/* line 2038, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2038, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-/* line 2043, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2043, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .page-header {
   border-top: 4px solid #1a1a1a;
   margin: 0 7.6923% 3.5em;
   padding-top: 1.75em;
 }
 
-/* line 2049, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2049, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 body.error404 .page-header,
 body.search-no-results .page-header {
   border-top: 0;
   padding-top: 0;
 }
 
-/* line 2055, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2055, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .page-title {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
   font-size: 23px;
@@ -2328,7 +2328,7 @@ body.search-no-results .page-header {
   line-height: 1.2173913043;
 }
 
-/* line 2062, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2062, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .taxonomy-description {
   color: #686868;
   font-size: 13px;
@@ -2336,24 +2336,24 @@ body.search-no-results .page-header {
   line-height: 1.6153846154;
 }
 
-/* line 2069, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2069, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .taxonomy-description p {
   margin: 0.5384615385em 0 1.6153846154em;
 }
 
-/* line 2073, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2073, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .taxonomy-description > :last-child {
   margin-bottom: 0;
 }
 
-/* line 2077, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2077, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .page-links {
   clear: both;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
   margin: 0 0 1.75em;
 }
 
-/* line 2083, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2083, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .page-links a,
 .page-links > span {
   border: 1px solid #d1d1d1;
@@ -2368,14 +2368,14 @@ body.search-no-results .page-header {
   width: 1.8461538462em;
 }
 
-/* line 2097, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2097, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .page-links a {
   background-color: #1a1a1a;
   border-color: #1a1a1a;
   color: #fff;
 }
 
-/* line 2103, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2103, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .page-links a:hover,
 .page-links a:focus {
   background-color: #007acc;
@@ -2383,7 +2383,7 @@ body.search-no-results .page-header {
   color: #fff;
 }
 
-/* line 2110, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2110, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .page-links > .page-links-title {
   border: 0;
   color: #1a1a1a;
@@ -2393,12 +2393,12 @@ body.search-no-results .page-header {
   width: auto;
 }
 
-/* line 2119, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2119, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-attachment {
   margin-bottom: 1.75em;
 }
 
-/* line 2123, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2123, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-caption {
   color: #686868;
   font-size: 13px;
@@ -2408,17 +2408,17 @@ body.search-no-results .page-header {
   padding-top: 1.0769230769em;
 }
 
-/* line 2132, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2132, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-caption > :last-child {
   margin-bottom: 0;
 }
 
-/* line 2136, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2136, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .content-bottom-widgets {
   margin: 0 7.6923%;
 }
 
-/* line 2140, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2140, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .content-bottom-widgets .widget-area {
   margin-bottom: 3.5em;
 }
@@ -2426,7 +2426,7 @@ body.search-no-results .page-header {
 /**
  * 11.3 - Post Formats
  */
-/* line 2149, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2149, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .format-aside .entry-title,
 .format-image .entry-title,
 .format-video .entry-title,
@@ -2442,7 +2442,7 @@ body.search-no-results .page-header {
   margin-bottom: 1.473684211em;
 }
 
-/* line 2164, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2164, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .blog .format-status .entry-title,
 .archive .format-status .entry-title {
   display: none;
@@ -2451,18 +2451,18 @@ body.search-no-results .page-header {
 /**
  * 11.4 - Comments
  */
-/* line 2174, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2174, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comments-area {
   margin: 0 7.6923% 3.5em;
 }
 
-/* line 2178, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2178, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-list + .comment-respond,
 .comment-navigation + .comment-respond {
   padding-top: 1.75em;
 }
 
-/* line 2183, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2183, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comments-title,
 .comment-reply-title {
   border-top: 4px solid #1a1a1a;
@@ -2474,18 +2474,18 @@ body.search-no-results .page-header {
   padding-top: 1.217391304em;
 }
 
-/* line 2194, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2194, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comments-title {
   margin-bottom: 1.217391304em;
 }
 
-/* line 2198, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2198, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-list {
   list-style: none;
   margin: 0;
 }
 
-/* line 2203, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2203, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-list article,
 .comment-list .pingback,
 .comment-list .trackback {
@@ -2493,24 +2493,24 @@ body.search-no-results .page-header {
   padding: 1.75em 0;
 }
 
-/* line 2210, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2210, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-list .children {
   list-style: none;
   margin: 0;
 }
 
-/* line 2215, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2215, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-list .children > li {
   padding-left: 0.875em;
 }
 
-/* line 2219, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2219, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-author {
   color: #1a1a1a;
   margin-bottom: 0.4375em;
 }
 
-/* line 2224, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2224, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-author .avatar {
   float: left;
   height: 28px;
@@ -2519,7 +2519,7 @@ body.search-no-results .page-header {
   width: 28px;
 }
 
-/* line 2232, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2232, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .bypostauthor > article .fn:after {
   content: "\f304";
   left: 3px;
@@ -2527,7 +2527,7 @@ body.search-no-results .page-header {
   top: 5px;
 }
 
-/* line 2239, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2239, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-metadata,
 .pingback .edit-link {
   color: #686868;
@@ -2537,18 +2537,18 @@ body.search-no-results .page-header {
   line-height: 1.6153846154;
 }
 
-/* line 2248, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2248, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-metadata {
   margin-bottom: 2.1538461538em;
 }
 
-/* line 2252, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2252, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-metadata a,
 .pingback .comment-edit-link {
   color: #686868;
 }
 
-/* line 2257, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2257, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-metadata a:hover,
 .comment-metadata a:focus,
 .pingback .comment-edit-link:hover,
@@ -2556,13 +2556,13 @@ body.search-no-results .page-header {
   color: #007acc;
 }
 
-/* line 2264, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2264, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-metadata .edit-link,
 .pingback .edit-link {
   display: inline-block;
 }
 
-/* line 2269, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2269, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-metadata .edit-link:before,
 .pingback .edit-link:before {
   content: "\002f";
@@ -2571,19 +2571,19 @@ body.search-no-results .page-header {
   padding: 0 0.538461538em;
 }
 
-/* line 2277, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2277, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-content ul,
 .comment-content ol {
   margin: 0 0 1.5em 1.25em;
 }
 
-/* line 2282, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2282, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-content li > ul,
 .comment-content li > ol {
   margin-bottom: 0;
 }
 
-/* line 2287, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2287, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-reply-link {
   border: 1px solid #d1d1d1;
   border-radius: 2px;
@@ -2597,7 +2597,7 @@ body.search-no-results .page-header {
   padding: 0.5384615385em 0.5384615385em 0.4615384615em;
 }
 
-/* line 2300, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2300, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-reply-link:hover,
 .comment-reply-link:focus {
   border-color: currentColor;
@@ -2605,12 +2605,12 @@ body.search-no-results .page-header {
   outline: 0;
 }
 
-/* line 2307, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2307, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-form {
   padding-top: 1.75em;
 }
 
-/* line 2311, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2311, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-form label {
   color: #686868;
   display: block;
@@ -2623,12 +2623,12 @@ body.search-no-results .page-header {
   text-transform: uppercase;
 }
 
-/* line 2323, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2323, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-list .comment-form {
   padding-bottom: 1.75em;
 }
 
-/* line 2327, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2327, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-notes,
 .comment-awaiting-moderation,
 .logged-in-as,
@@ -2640,7 +2640,7 @@ body.search-no-results .page-header {
   margin-bottom: 2.1538461538em;
 }
 
-/* line 2338, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2338, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .no-comments {
   border-top: 1px solid #d1d1d1;
   font-family: Montserrat, "Helvetica Neue", sans-serif;
@@ -2649,34 +2649,34 @@ body.search-no-results .page-header {
   padding-top: 1.75em;
 }
 
-/* line 2346, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2346, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-navigation + .no-comments {
   border-top: 0;
   padding-top: 0;
 }
 
-/* line 2351, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2351, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .form-allowed-tags code {
   font-family: Inconsolata, monospace;
 }
 
-/* line 2355, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2355, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .form-submit {
   margin-bottom: 0;
 }
 
-/* line 2359, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2359, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .required {
   color: #007acc;
   font-family: Merriweather, Georgia, serif;
 }
 
-/* line 2364, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2364, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-reply-title small {
   font-size: 100%;
 }
 
-/* line 2368, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2368, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-reply-title small a {
   border: 0;
   float: right;
@@ -2685,13 +2685,13 @@ body.search-no-results .page-header {
   width: 26px;
 }
 
-/* line 2376, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2376, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-reply-title small a:hover,
 .comment-reply-title small a:focus {
   color: #1a1a1a;
 }
 
-/* line 2381, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2381, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .comment-reply-title small a:before {
   content: "\f405";
   font-size: 32px;
@@ -2702,7 +2702,7 @@ body.search-no-results .page-header {
 /**
  * 11.5 - Sidebar
  */
-/* line 2393, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2393, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .sidebar {
   margin-bottom: 3.5em;
   padding: 0 7.6923%;
@@ -2711,12 +2711,12 @@ body.search-no-results .page-header {
 /**
  * 11.6 - Footer
  */
-/* line 2403, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2403, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-footer {
   padding: 0 7.6923% 1.75em;
 }
 
-/* line 2407, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2407, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-info {
   color: #686868;
   font-size: 13px;
@@ -2724,25 +2724,25 @@ body.search-no-results .page-header {
   line-height: 1.6153846154;
 }
 
-/* line 2414, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2414, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-info a {
   color: #686868;
 }
 
-/* line 2418, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2418, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-info a:hover,
 .site-info a:focus {
   color: #007acc;
 }
 
-/* line 2423, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2423, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-footer .site-title {
   font-family: inherit;
   font-size: inherit;
   font-weight: 400;
 }
 
-/* line 2429, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2429, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site-footer .site-title:after {
   content: "\002f";
   display: inline-block;
@@ -2754,12 +2754,12 @@ body.search-no-results .page-header {
 /**
  * 12.0 - Media
  */
-/* line 2442, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2442, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .site .avatar {
   border-radius: 50%;
 }
 
-/* line 2446, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2446, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content .wp-smiley,
 .entry-summary .wp-smiley,
 .comment-content .wp-smiley,
@@ -2770,7 +2770,7 @@ body.search-no-results .page-header {
   padding: 0;
 }
 
-/* line 2456, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2456, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content a img,
 .entry-summary a img,
 .comment-content a img,
@@ -2779,7 +2779,7 @@ body.search-no-results .page-header {
 }
 
 /* Make sure embeds and iframes fit their containers. */
-/* line 2464, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2464, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 embed,
 iframe,
 object,
@@ -2789,7 +2789,7 @@ video {
   vertical-align: middle;
 }
 
-/* line 2473, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2473, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 p > embed,
 p > iframe,
 p > object,
@@ -2797,13 +2797,13 @@ p > video {
   margin-bottom: 0;
 }
 
-/* line 2480, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2480, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .entry-content .wp-audio-shortcode a,
 .entry-content .wp-playlist a {
   box-shadow: none;
 }
 
-/* line 2485, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2485, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .wp-audio-shortcode,
 .wp-video,
 .wp-playlist.wp-audio-playlist {
@@ -2811,23 +2811,23 @@ p > video {
   margin-bottom: 1.75em;
 }
 
-/* line 2492, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2492, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .wp-playlist.wp-audio-playlist {
   padding-bottom: 0;
 }
 
-/* line 2496, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2496, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .wp-playlist .wp-playlist-tracks {
   margin-top: 0;
 }
 
-/* line 2500, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2500, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .wp-playlist-item .wp-playlist-caption {
   border-bottom: 0;
   padding: 0.7142857143em 0;
 }
 
-/* line 2505, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2505, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .wp-playlist-item .wp-playlist-item-length {
   top: 0.7142857143em;
 }
@@ -2835,19 +2835,19 @@ p > video {
 /**
  * 12.1 - Captions
  */
-/* line 2514, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2514, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .wp-caption {
   margin-bottom: 1.75em;
   max-width: 100%;
 }
 
-/* line 2519, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2519, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 0;
 }
 
-/* line 2524, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2524, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .wp-caption .wp-caption-text {
   color: #686868;
   font-size: 13px;
@@ -2860,12 +2860,12 @@ p > video {
 /**
  * 12.2 - Galleries
  */
-/* line 2538, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2538, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery {
   margin: 0 -1.1666667% 1.75em;
 }
 
-/* line 2542, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2542, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-item {
   display: inline-block;
   max-width: 33.33%;
@@ -2875,52 +2875,52 @@ p > video {
   width: 100%;
 }
 
-/* line 2551, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2551, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-columns-1 .gallery-item {
   max-width: 100%;
 }
 
-/* line 2555, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2555, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-columns-2 .gallery-item {
   max-width: 50%;
 }
 
-/* line 2559, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2559, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-columns-4 .gallery-item {
   max-width: 25%;
 }
 
-/* line 2563, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2563, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-columns-5 .gallery-item {
   max-width: 20%;
 }
 
-/* line 2567, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2567, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-columns-6 .gallery-item {
   max-width: 16.66%;
 }
 
-/* line 2571, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2571, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-columns-7 .gallery-item {
   max-width: 14.28%;
 }
 
-/* line 2575, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2575, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-columns-8 .gallery-item {
   max-width: 12.5%;
 }
 
-/* line 2579, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2579, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-columns-9 .gallery-item {
   max-width: 11.11%;
 }
 
-/* line 2583, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2583, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-icon img {
   margin: 0 auto;
 }
 
-/* line 2587, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2587, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-caption {
   color: #686868;
   display: block;
@@ -2931,7 +2931,7 @@ p > video {
   padding-top: 0.5384615385em;
 }
 
-/* line 2597, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2597, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .gallery-columns-6 .gallery-caption,
 .gallery-columns-7 .gallery-caption,
 .gallery-columns-8 .gallery-caption,
@@ -2942,18 +2942,18 @@ p > video {
 /**
  * 13.0 - Multisites
  */
-/* line 2609, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2609, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn {
   margin-bottom: 3.5em;
   padding: 0 7.6923%;
 }
 
-/* line 2614, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2614, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn .mu_register {
   width: auto;
 }
 
-/* line 2618, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2618, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn .mu_register .mu_alert {
   background: transparent;
   border-color: #d1d1d1;
@@ -2962,13 +2962,13 @@ p > video {
   padding: 1.75em;
 }
 
-/* line 2626, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2626, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn form,
 .widecolumn .mu_register form {
   margin-top: 0;
 }
 
-/* line 2631, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2631, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn h2 {
   font-size: 23px;
   font-size: 1.4375rem;
@@ -2977,17 +2977,17 @@ p > video {
   margin-bottom: 1.2173913043em;
 }
 
-/* line 2639, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2639, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn p {
   margin: 1.75em 0;
 }
 
-/* line 2643, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2643, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn p + h2 {
   margin-top: 2.4347826087em;
 }
 
-/* line 2647, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2647, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn label,
 .widecolumn .mu_register label {
   color: #686868;
@@ -3000,17 +3000,17 @@ p > video {
   text-transform: uppercase;
 }
 
-/* line 2659, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2659, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn .mu_register label {
   margin: 2.1538461538em 0.7692307692em 0.5384615385em 0;
 }
 
-/* line 2663, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2663, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn .mu_register label strong {
   font-weight: 400;
 }
 
-/* line 2667, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2667, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn #key,
 .widecolumn .mu_register #blog_title,
 .widecolumn .mu_register #user_email,
@@ -3021,19 +3021,19 @@ p > video {
   width: 100%;
 }
 
-/* line 2677, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2677, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn .mu_register #blogname {
   margin: 0;
 }
 
-/* line 2681, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2681, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn .mu_register #blog_title,
 .widecolumn .mu_register #user_email,
 .widecolumn .mu_register #user_name {
   margin: 0 0 0.375em;
 }
 
-/* line 2687, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2687, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn #submit,
 .widecolumn .mu_register input[type="submit"] {
   font-size: 16px;
@@ -3042,13 +3042,13 @@ p > video {
   width: auto;
 }
 
-/* line 2695, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2695, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn .mu_register .prefix_address,
 .widecolumn .mu_register .suffix_address {
   font-size: inherit;
 }
 
-/* line 2700, ../../src/rossaforbes/sass/framework/_2016.scss */
+/* line 2700, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
 .widecolumn .mu_register > :last-child,
 .widecolumn form > :last-child {
   margin-bottom: 0;
@@ -3073,7 +3073,7 @@ p > video {
  * 14.1 - >= 710px
  */
 @media screen and (min-width: 44.375em) {
-  /* line 2730, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2730, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.custom-background-image):before,
   body:not(.custom-background-image):after {
     background: inherit;
@@ -3086,65 +3086,65 @@ p > video {
     z-index: 99;
   }
 
-  /* line 2742, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2742, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.custom-background-image):before {
     top: 0;
   }
 
-  /* line 2746, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2746, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.custom-background-image).admin-bar:before {
     top: 46px;
   }
 
-  /* line 2750, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2750, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.custom-background-image):after {
     bottom: 0;
   }
 
-  /* line 2754, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2754, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site {
     margin: 21px;
   }
 
-  /* line 2758, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2758, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-main {
     margin-bottom: 5.25em;
   }
 
-  /* line 2762, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2762, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-header {
     padding: 3.9375em 7.6923%;
   }
 
-  /* line 2766, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2766, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-branding {
     margin-top: 1.3125em;
     margin-bottom: 1.3125em;
   }
 
-  /* line 2771, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2771, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .custom-logo {
     max-width: 210px;
   }
 
-  /* line 2775, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2775, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-title {
     font-size: 28px;
     font-size: 1.75rem;
     line-height: 1.25;
   }
 
-  /* line 2781, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2781, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .wp-custom-logo .site-title {
     margin-top: 0.5em;
   }
 
-  /* line 2785, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2785, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-description {
     display: block;
   }
 
-  /* line 2789, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2789, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .menu-toggle {
     font-size: 16px;
     font-size: 1.0rem;
@@ -3152,32 +3152,32 @@ p > video {
     padding: 0.8125em 0.875em 0.6875em;
   }
 
-  /* line 2796, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2796, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-header-menu {
     margin: 1.3125em 0;
   }
 
-  /* line 2800, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2800, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-header .main-navigation + .social-navigation {
     margin-top: 2.625em;
   }
 
-  /* line 2804, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2804, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .header-image {
     margin: 1.3125em 0;
   }
 
-  /* line 2808, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2808, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .pagination {
     margin: 0 23.0769% 4.42105em 7.6923%;
   }
 
-  /* line 2812, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2812, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .post-navigation {
     margin-bottom: 5.25em;
   }
 
-  /* line 2816, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2816, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .post-navigation .post-title {
     font-size: 28px;
     font-size: 1.75rem;
@@ -3185,22 +3185,22 @@ p > video {
   }
 
   /* restore screen-reader-text */
-  /* line 2823, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2823, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .pagination .current .screen-reader-text {
     position: absolute !important;
   }
 
-  /* line 2827, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2827, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .pagination .page-numbers {
     display: inline-block;
   }
 
-  /* line 2831, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2831, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-main > article {
     margin-bottom: 5.25em;
   }
 
-  /* line 2835, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2835, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-header,
   .post-thumbnail,
   .entry-content,
@@ -3215,7 +3215,7 @@ p > video {
     margin-right: 23.0769%;
   }
 
-  /* line 2849, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2849, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-title {
     font-size: 33px;
     font-size: 2.0625rem;
@@ -3223,7 +3223,7 @@ p > video {
     margin-bottom: 0.8484848485em;
   }
 
-  /* line 2856, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2856, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content blockquote.alignleft,
   .entry-content blockquote.alignright {
     border-width: 4px 0 0 0;
@@ -3232,21 +3232,21 @@ p > video {
     width: calc(50% - 0.736842105em);
   }
 
-  /* line 2864, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2864, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content blockquote:not(.alignleft):not(.alignright),
   .entry-summary blockquote,
   .comment-content blockquote {
     margin-left: -1.473684211em;
   }
 
-  /* line 2870, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2870, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content blockquote blockquote:not(.alignleft):not(.alignright),
   .entry-summary blockquote blockquote,
   .comment-content blockquote blockquote {
     margin-left: 0;
   }
 
-  /* line 2876, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2876, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content ul,
   .entry-summary ul,
   .comment-content ul,
@@ -3256,7 +3256,7 @@ p > video {
     margin-left: 0;
   }
 
-  /* line 2885, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2885, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content li > ul,
   .entry-summary li > ul,
   .comment-content li > ul,
@@ -3266,7 +3266,7 @@ p > video {
     margin-left: 1.25em;
   }
 
-  /* line 2894, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2894, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content li > ol,
   .entry-summary li > ol,
   .comment-content li > ol,
@@ -3276,12 +3276,12 @@ p > video {
     margin-left: 1.5em;
   }
 
-  /* line 2903, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2903, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .comment-author {
     margin-bottom: 0;
   }
 
-  /* line 2907, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2907, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .comment-author .avatar {
     height: 42px;
     position: relative;
@@ -3289,38 +3289,38 @@ p > video {
     width: 42px;
   }
 
-  /* line 2914, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2914, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .comment-list .children > li {
     padding-left: 1.75em;
   }
 
-  /* line 2918, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2918, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .comment-list + .comment-respond,
   .comment-navigation + .comment-respond {
     padding-top: 3.5em;
   }
 
-  /* line 2923, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2923, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .comments-area,
   .widget,
   .content-bottom-widgets .widget-area {
     margin-bottom: 5.25em;
   }
 
-  /* line 2929, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2929, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .sidebar,
   .widecolumn {
     margin-bottom: 5.25em;
     padding-right: 23.0769%;
   }
 
-  /* line 2935, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2935, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary li > ul,
   body:not(.search-results) .entry-summary blockquote > ul {
     margin-left: 1.157894737em;
   }
 
-  /* line 2940, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2940, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary li > ol,
   body:not(.search-results) .entry-summary blockquote > ol {
     margin-left: 1.473684211em;
@@ -3330,7 +3330,7 @@ p > video {
  * 14.2 - >= 783px
  */
 @media screen and (min-width: 48.9375em) {
-  /* line 2952, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2952, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.custom-background-image).admin-bar:before {
     top: 32px;
   }
@@ -3339,27 +3339,27 @@ p > video {
  * 14.3 - >= 910px
  */
 @media screen and (min-width: 56.875em) {
-  /* line 2963, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2963, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-header {
     padding-right: 4.5455%;
     padding-left: 4.5455%;
   }
 
-  /* line 2968, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2968, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-header-main {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
   }
 
-  /* line 2974, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2974, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .wp-custom-logo .site-header-main {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
   }
 
-  /* line 2980, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2980, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-header-menu {
     display: block;
     -webkit-flex: 0 1 auto;
@@ -3367,36 +3367,36 @@ p > video {
     flex: 0 1 auto;
   }
 
-  /* line 2987, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2987, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation {
     margin: 0 -0.875em;
   }
 
-  /* line 2991, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2991, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation .primary-menu,
   .main-navigation .primary-menu > li {
     border: 0;
   }
 
-  /* line 2996, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 2996, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation .primary-menu > li {
     float: left;
   }
 
-  /* line 3000, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3000, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation a {
     outline-offset: -8px;
     padding: 0.65625em 0.875em;
     white-space: nowrap;
   }
 
-  /* line 3006, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3006, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation li:hover > a,
   .main-navigation li.focus > a {
     color: #007acc;
   }
 
-  /* line 3011, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3011, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul {
     border-bottom: 1px solid #d1d1d1;
     display: block;
@@ -3406,31 +3406,31 @@ p > video {
     z-index: 99999;
   }
 
-  /* line 3020, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3020, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul ul {
     top: -1px;
   }
 
-  /* line 3024, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3024, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul ul:before,
   .main-navigation ul ul ul:after {
     border: 0;
   }
 
-  /* line 3029, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3029, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul li {
     background-color: #fff;
     border: 1px solid #d1d1d1;
     border-bottom-width: 0;
   }
 
-  /* line 3035, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3035, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul a {
     white-space: normal;
     width: 12.6875em;
   }
 
-  /* line 3040, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3040, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul:before,
   .main-navigation ul ul:after {
     border-style: solid;
@@ -3438,7 +3438,7 @@ p > video {
     position: absolute;
   }
 
-  /* line 3047, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3047, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul:before {
     border-color: #d1d1d1 transparent;
     border-width: 0 10px 10px;
@@ -3446,7 +3446,7 @@ p > video {
     top: -9px;
   }
 
-  /* line 3054, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3054, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul:after {
     border-color: #fff transparent;
     border-width: 0 8px 8px;
@@ -3454,27 +3454,27 @@ p > video {
     top: -7px;
   }
 
-  /* line 3061, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3061, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation li:hover > ul,
   .main-navigation li.focus > ul {
     left: auto;
     right: 0;
   }
 
-  /* line 3067, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3067, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul li:hover > ul,
   .main-navigation ul ul li.focus > ul {
     left: auto;
     right: 100%;
   }
 
-  /* line 3073, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3073, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation .menu-item-has-children > a {
     margin: 0;
     padding-right: 2.25em;
   }
 
-  /* line 3078, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3078, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation .menu-item-has-children > a:after {
     content: "\f431";
     position: absolute;
@@ -3482,12 +3482,12 @@ p > video {
     top: 0.8125em;
   }
 
-  /* line 3085, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3085, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul .menu-item-has-children > a {
     padding-right: 2.0625em;
   }
 
-  /* line 3089, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3089, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .main-navigation ul ul .menu-item-has-children > a:after {
     right: 0.5625em;
     top: 0.875em;
@@ -3497,7 +3497,7 @@ p > video {
     transform: rotate(90deg);
   }
 
-  /* line 3098, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3098, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .dropdown-toggle,
   .main-navigation ul .dropdown-toggle.toggled-on,
   .menu-toggle,
@@ -3506,19 +3506,19 @@ p > video {
     display: none;
   }
 
-  /* line 3106, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3106, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-content {
     padding: 0 4.5455%;
   }
 
-  /* line 3110, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3110, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .content-area {
     float: left;
     margin-right: -100%;
     width: 70%;
   }
 
-  /* line 3116, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3116, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-header,
   .post-thumbnail,
   .entry-content,
@@ -3535,7 +3535,7 @@ p > video {
     margin-left: 0;
   }
 
-  /* line 3132, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3132, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .sidebar {
     float: left;
     margin-left: 75%;
@@ -3543,7 +3543,7 @@ p > video {
     width: 25%;
   }
 
-  /* line 3139, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3139, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget {
     font-size: 13px;
     font-size: 0.8125rem;
@@ -3552,12 +3552,12 @@ p > video {
     padding-top: 1.615384615em;
   }
 
-  /* line 3147, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3147, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget .widget-title {
     margin-bottom: 1.3125em;
   }
 
-  /* line 3151, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3151, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget p,
   .widget address,
   .widget hr,
@@ -3569,13 +3569,13 @@ p > video {
     margin-bottom: 1.6153846154em;
   }
 
-  /* line 3162, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3162, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget li > ul,
   .widget li > ol {
     margin-bottom: 0;
   }
 
-  /* line 3167, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3167, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget blockquote {
     font-size: 16px;
     font-size: 1rem;
@@ -3584,7 +3584,7 @@ p > video {
     padding-left: 1.0625em;
   }
 
-  /* line 3175, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3175, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget blockquote cite,
   .widget blockquote small {
     font-size: 13px;
@@ -3592,13 +3592,13 @@ p > video {
     line-height: 1.6153846154;
   }
 
-  /* line 3182, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3182, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget th,
   .widget td {
     padding: 0.5384615385em;
   }
 
-  /* line 3187, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3187, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget pre {
     font-size: 13px;
     font-size: 0.8125rem;
@@ -3607,13 +3607,13 @@ p > video {
     padding: 0.5384615385em;
   }
 
-  /* line 3195, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3195, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget fieldset {
     margin-bottom: 1.6153846154em;
     padding: 0.5384615385em;
   }
 
-  /* line 3200, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3200, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget button,
   .widget input,
   .widget select,
@@ -3623,7 +3623,7 @@ p > video {
     line-height: 1.6153846154;
   }
 
-  /* line 3209, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3209, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget button,
   .widget input[type="button"],
   .widget input[type="reset"],
@@ -3632,7 +3632,7 @@ p > video {
     padding: 0.846153846em;
   }
 
-  /* line 3217, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3217, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget input[type="date"],
   .widget input[type="time"],
   .widget input[type="datetime-local"],
@@ -3649,7 +3649,7 @@ p > video {
     padding: 0.4615384615em 0.5384615385em;
   }
 
-  /* line 3233, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3233, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget h1 {
     font-size: 23px;
     font-size: 1.4375rem;
@@ -3657,7 +3657,7 @@ p > video {
     margin-bottom: 0.9130434783em;
   }
 
-  /* line 3240, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3240, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget h2 {
     font-size: 19px;
     font-size: 1.1875rem;
@@ -3665,7 +3665,7 @@ p > video {
     margin-bottom: 1.1052631579em;
   }
 
-  /* line 3247, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3247, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget h3 {
     font-size: 16px;
     font-size: 1rem;
@@ -3673,7 +3673,7 @@ p > video {
     margin-bottom: 1.3125em;
   }
 
-  /* line 3254, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3254, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget h4,
   .widget h5,
   .widget h6 {
@@ -3683,40 +3683,40 @@ p > video {
     margin-bottom: 0.9130434783em;
   }
 
-  /* line 3263, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3263, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget .alignleft {
     margin: 0.2307692308em 1.6153846154em 1.6153846154em 0;
   }
 
-  /* line 3267, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3267, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget .alignright {
     margin: 0.2307692308em 0 1.6153846154em 1.6153846154em;
   }
 
-  /* line 3271, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3271, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget .aligncenter {
     margin-bottom: 1.6153846154em;
   }
 
-  /* line 3275, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3275, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget_calendar td,
   .widget_calendar th {
     line-height: 2.6923076923;
     padding: 0;
   }
 
-  /* line 3281, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3281, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget_rss .rssSummary:last-child {
     margin-bottom: 1.615384615em;
   }
 
-  /* line 3285, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3285, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget input[type="search"].search-field {
     width: -webkit-calc(100% - 35px);
     width: calc(100% - 35px);
   }
 
-  /* line 3290, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3290, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget .search-submit:before {
     font-size: 16px;
     left: 1px;
@@ -3724,46 +3724,46 @@ p > video {
     width: 34px;
   }
 
-  /* line 3297, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3297, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget button.search-submit {
     padding: 0;
     width: 35px;
   }
 
-  /* line 3302, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3302, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .tagcloud a {
     margin: 0 0.2307692308em 0.5384615385em 0;
     padding: 0.5384615385em 0.4615384615em 0.4615384615em;
   }
 
-  /* line 3307, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3307, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .textwidget h1 {
     margin-top: 1.8260869565em;
   }
 
-  /* line 3311, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3311, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .textwidget h2 {
     margin-top: 2.2105263158em;
   }
 
-  /* line 3315, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3315, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .textwidget h3 {
     margin-top: 2.625em;
   }
 
-  /* line 3319, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3319, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .textwidget h4 {
     letter-spacing: 0.153846154em;
   }
 
-  /* line 3323, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3323, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .textwidget h4,
   .textwidget h5,
   .textwidget h6 {
     margin-top: 3.2307692308em;
   }
 
-  /* line 3329, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3329, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .content-bottom-widgets .widget-area:nth-child(1):nth-last-child(2),
   .content-bottom-widgets .widget-area:nth-child(2):nth-last-child(1) {
     float: left;
@@ -3771,12 +3771,12 @@ p > video {
     width: 46.42857145%;
   }
 
-  /* line 3336, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3336, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .content-bottom-widgets .widget-area:nth-child(2):nth-last-child(1):last-of-type {
     margin-right: 0;
   }
 
-  /* line 3340, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3340, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-footer {
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -3790,7 +3790,7 @@ p > video {
     padding: 0 4.5455% 3.5em;
   }
 
-  /* line 3353, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3353, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-footer .social-navigation {
     margin: 0;
     -webkit-order: 2;
@@ -3798,7 +3798,7 @@ p > video {
     order: 2;
   }
 
-  /* line 3360, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3360, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-info {
     margin: 0.538461538em auto 0.538461538em 0;
     -webkit-order: 1;
@@ -3806,14 +3806,14 @@ p > video {
     order: 1;
   }
 
-  /* line 3367, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3367, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .no-sidebar .content-area {
     float: none;
     margin: 0;
     width: 100%;
   }
 
-  /* line 3373, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3373, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .no-sidebar .entry-header,
   .no-sidebar .entry-content,
   .no-sidebar .entry-summary,
@@ -3829,7 +3829,7 @@ p > video {
     margin-left: 15%;
   }
 
-  /* line 3388, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3388, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widecolumn {
     padding-right: 15%;
     padding-left: 15%;
@@ -3839,17 +3839,17 @@ p > video {
  * 14.4 - >= 985px
  */
 @media screen and (min-width: 61.5625em) {
-  /* line 3400, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3400, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-main {
     margin-bottom: 7.0em;
   }
 
-  /* line 3404, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3404, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-header {
     padding: 5.25em 4.5455%;
   }
 
-  /* line 3408, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3408, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-branding,
   .site-header-menu,
   .header-image {
@@ -3857,37 +3857,37 @@ p > video {
     margin-bottom: 1.75em;
   }
 
-  /* line 3415, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3415, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .custom-logo {
     max-width: 240px;
   }
 
-  /* line 3419, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3419, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .image-navigation {
     margin-bottom: 3.230769231em;
   }
 
-  /* line 3423, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3423, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .post-navigation {
     margin-bottom: 7.0em;
   }
 
-  /* line 3427, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3427, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .pagination {
     margin-bottom: 5.894736842em;
   }
 
-  /* line 3431, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3431, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .widget {
     margin-bottom: 4.307692308em;
   }
 
-  /* line 3435, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3435, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-main > article {
     margin-bottom: 7.0em;
   }
 
-  /* line 3439, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3439, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-title {
     font-size: 40px;
     font-size: 2.5rem;
@@ -3895,7 +3895,7 @@ p > video {
     margin-bottom: 1.05em;
   }
 
-  /* line 3446, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3446, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .format-aside .entry-title,
   .format-image .entry-title,
   .format-video .entry-title,
@@ -3911,12 +3911,12 @@ p > video {
     margin-bottom: 1.826086957em;
   }
 
-  /* line 3461, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3461, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .post-thumbnail {
     margin-bottom: 2.625em;
   }
 
-  /* line 3465, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3465, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content h1,
   .entry-summary h1,
   .comment-content h1 {
@@ -3927,7 +3927,7 @@ p > video {
     margin-bottom: 0.8484848485em;
   }
 
-  /* line 3475, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3475, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content h2,
   .entry-summary h2,
   .comment-content h2 {
@@ -3938,7 +3938,7 @@ p > video {
     margin-bottom: 1em;
   }
 
-  /* line 3485, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3485, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content h3,
   .entry-summary h3,
   .comment-content h3 {
@@ -3949,7 +3949,7 @@ p > video {
     margin-bottom: 1.2173913043em;
   }
 
-  /* line 3495, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3495, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content h4,
   .entry-summary h4,
   .entry-intro h4,
@@ -3957,7 +3957,7 @@ p > video {
     letter-spacing: 0.131578947em;
   }
 
-  /* line 3502, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3502, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content h4,
   .entry-content h5,
   .entry-content h6,
@@ -3974,19 +3974,19 @@ p > video {
     margin-bottom: 1.473684211em;
   }
 
-  /* line 3518, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3518, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .author-info {
     border-bottom-width: 0;
     padding-bottom: 0;
   }
 
-  /* line 3523, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3523, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .comment-list + .comment-respond,
   .comment-navigation + .comment-respond {
     padding-top: 5.25em;
   }
 
-  /* line 3528, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3528, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .comments-area,
   .sidebar,
   .content-bottom-widgets .widget-area,
@@ -3994,30 +3994,30 @@ p > video {
     margin-bottom: 7.0em;
   }
 
-  /* line 3535, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3535, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary {
     margin-bottom: 2.210526316em;
   }
 
-  /* line 3539, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3539, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-header + .entry-summary {
     margin-top: -1.105263158em;
   }
 
-  /* line 3543, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3543, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) article:not(.type-page) .entry-content {
     float: right;
     width: 71.42857144%;
   }
 
-  /* line 3548, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3548, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) article:not(.type-page) .entry-content > blockquote.alignleft.below-entry-meta {
     margin-left: -40%;
     width: -webkit-calc(60% - 1.4736842105em);
     width: calc(60% - 1.4736842105em);
   }
 
-  /* line 3554, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3554, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) article:not(.type-page) img.below-entry-meta,
   body:not(.search-results) article:not(.type-page) figure.below-entry-meta {
     clear: both;
@@ -4028,7 +4028,7 @@ p > video {
     max-width: 140%;
   }
 
-  /* line 3564, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3564, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) article:not(.type-page) figure.below-entry-meta img.below-entry-meta,
   body:not(.search-results) article:not(.type-page) table figure.below-entry-meta,
   body:not(.search-results) article:not(.type-page) table img.below-entry-meta {
@@ -4036,19 +4036,19 @@ p > video {
     max-width: 100%;
   }
 
-  /* line 3571, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3571, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) article:not(.type-page) .entry-footer {
     float: left;
     margin-top: 0.1538461538em;
     width: 21.42857143%;
   }
 
-  /* line 3577, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3577, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) article:not(.type-page) .entry-footer > span:not(:last-child):after {
     display: none;
   }
 
-  /* line 3581, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3581, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .single .byline,
   .full-size-link,
   body:not(.search-results).group-blog .byline,
@@ -4062,12 +4062,12 @@ p > video {
     margin-bottom: 0.5384615385em;
   }
 
-  /* line 3594, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3594, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) article:not(.type-page) .entry-footer > span:last-child {
     margin-bottom: 0;
   }
 
-  /* line 3598, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3598, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) article:not(.type-page) .entry-footer .avatar {
     display: block;
     height: auto;
@@ -4075,7 +4075,7 @@ p > video {
     width: 49px;
   }
 
-  /* line 3605, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3605, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
     float: left;
     margin-right: -100%;
@@ -4083,7 +4083,7 @@ p > video {
     width: 50.00000001%;
   }
 
-  /* line 3612, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3612, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body.no-sidebar:not(.search-results) article:not(.type-page) .entry-footer {
     margin-right: -100%;
     margin-left: 15%;
@@ -4094,7 +4094,7 @@ p > video {
  * 14.5 - >= 1200px
  */
 @media screen and (min-width: 75em) {
-  /* line 3625, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3625, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary {
     font-size: 23px;
     font-size: 1.4375rem;
@@ -4102,12 +4102,12 @@ p > video {
     margin-bottom: 1.826086957em;
   }
 
-  /* line 3632, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3632, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-header + .entry-summary {
     margin-top: -0.913043478em;
   }
 
-  /* line 3636, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3636, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary p,
   body:not(.search-results) .entry-summary address,
   body:not(.search-results) .entry-summary hr,
@@ -4119,19 +4119,19 @@ p > video {
     margin-bottom: 1.5217391304em;
   }
 
-  /* line 3647, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3647, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary li > ul,
   body:not(.search-results) .entry-summary blockquote > ul {
     margin-left: 0.956521739em;
   }
 
-  /* line 3652, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3652, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary li > ol,
   body:not(.search-results) .entry-summary blockquote > ol {
     margin-left: 1.52173913em;
   }
 
-  /* line 3657, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3657, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary blockquote {
     font-size: 23px;
     font-size: 1.4375rem;
@@ -4140,17 +4140,17 @@ p > video {
     padding-left: 1.347826087em;
   }
 
-  /* line 3665, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3665, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary blockquote:not(.alignleft):not(.alignright) {
     margin-left: -1.52173913em;
   }
 
-  /* line 3669, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3669, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary blockquote blockquote:not(.alignleft):not(.alignright) {
     margin-left: 0;
   }
 
-  /* line 3673, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3673, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary blockquote cite,
   body:not(.search-results) .entry-summary blockquote small {
     font-size: 19px;
@@ -4158,13 +4158,13 @@ p > video {
     line-height: 1.8421052632;
   }
 
-  /* line 3680, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3680, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary th,
   body:not(.search-results) .entry-summary td {
     padding: 0.3043478261em;
   }
 
-  /* line 3685, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3685, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary pre {
     font-size: 16px;
     font-size: 1rem;
@@ -4173,31 +4173,31 @@ p > video {
     padding: 1.75em;
   }
 
-  /* line 3693, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3693, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary fieldset {
     margin-bottom: 1.5217391304em;
     padding: 0.3043478261em;
   }
 
-  /* line 3698, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3698, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary h1 {
     margin-top: 2.121212121em;
     margin-bottom: 1.060606061em;
   }
 
-  /* line 3703, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3703, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary h2 {
     margin-top: 2.5em;
     margin-bottom: 1.25em;
   }
 
-  /* line 3708, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3708, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary h3 {
     margin-top: 3.043478261em;
     margin-bottom: 1.52173913em;
   }
 
-  /* line 3713, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3713, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary h4,
   body:not(.search-results) .entry-summary h5,
   body:not(.search-results) .entry-summary h6 {
@@ -4205,7 +4205,7 @@ p > video {
     margin-bottom: 1.842105263em;
   }
 
-  /* line 3720, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3720, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary h1:first-child,
   body:not(.search-results) .entry-summary h2:first-child,
   body:not(.search-results) .entry-summary h3:first-child,
@@ -4215,17 +4215,17 @@ p > video {
     margin-top: 0;
   }
 
-  /* line 3729, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3729, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary .alignleft {
     margin: 0.2608695652em 1.5217391304em 1.5217391304em 0;
   }
 
-  /* line 3733, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3733, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary .alignright {
     margin: 0.2608695652em 0 1.5217391304em 1.5217391304em;
   }
 
-  /* line 3737, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3737, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-summary .aligncenter {
     margin-bottom: 1.5217391304em;
   }
@@ -4234,7 +4234,7 @@ p > video {
  * 15.0 - Print
  */
 @media print {
-  /* line 3748, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3748, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   form,
   button,
   input,
@@ -4256,7 +4256,7 @@ p > video {
     display: none;
   }
 
-  /* line 3769, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3769, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body,
   blockquote cite,
   blockquote small,
@@ -4274,12 +4274,12 @@ p > video {
     font-size: 12pt;
   }
 
-  /* line 3786, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3786, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   blockquote {
     font-size: 14.25pt;
   }
 
-  /* line 3790, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3790, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-title,
   .page-title,
   .comments-title,
@@ -4290,19 +4290,19 @@ p > video {
     font-size: 17.25pt;
   }
 
-  /* line 3800, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3800, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-description {
     display: block;
   }
 
-  /* line 3804, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3804, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-title {
     font-size: 24.75pt;
     line-height: 1.2727272727;
     margin-bottom: 1.696969697em;
   }
 
-  /* line 3810, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3810, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .format-aside .entry-title,
   .format-image .entry-title,
   .format-video .entry-title,
@@ -4317,14 +4317,14 @@ p > video {
     margin-bottom: 1.826086957em;
   }
 
-  /* line 3824, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3824, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content h1,
   .entry-summary h1,
   .comment-content h1 {
     font-size: 21pt;
   }
 
-  /* line 3830, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3830, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content h3,
   .entry-summary h3,
   .comment-content h3,
@@ -4332,7 +4332,7 @@ p > video {
     font-size: 14.25pt;
   }
 
-  /* line 3837, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3837, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-description,
   .author-bio,
   .entry-footer,
@@ -4348,14 +4348,14 @@ p > video {
     font-size: 9.75pt;
   }
 
-  /* line 3852, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3852, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body,
   .site {
     background: none !important;
     /* Brute force since user agents all print differently. */
   }
 
-  /* line 3857, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3857, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body,
   blockquote cite,
   blockquote small,
@@ -4366,7 +4366,7 @@ p > video {
     /* Make sure color schemes don't affect to print */
   }
 
-  /* line 3866, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3866, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   blockquote,
   .page-header,
   .comments-title {
@@ -4374,7 +4374,7 @@ p > video {
     /* Make sure color schemes don't affect to print */
   }
 
-  /* line 3872, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3872, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   blockquote,
   .site-description,
   body:not(.search-results) .entry-summary,
@@ -4397,14 +4397,14 @@ p > video {
     /* Make sure color schemes don't affect to print */
   }
 
-  /* line 3893, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3893, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   code,
   hr {
     background-color: #d1d1d1 !important;
     /* Make sure color schemes don't affect to print */
   }
 
-  /* line 3898, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3898, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   pre,
   abbr,
   acronym,
@@ -4420,13 +4420,13 @@ p > video {
     /* Make sure color schemes don't affect to print */
   }
 
-  /* line 3912, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3912, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   a {
     color: #007acc !important;
     /* Make sure color schemes don't affect to print */
   }
 
-  /* line 3916, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3916, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content a,
   .entry-summary a,
   .taxonomy-description a,
@@ -4437,33 +4437,33 @@ p > video {
     /* Make sure color schemes don't affect to print */
   }
 
-  /* line 3925, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3925, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site {
     margin: 5%;
   }
 
-  /* line 3929, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3929, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-inner {
     max-width: none;
   }
 
-  /* line 3933, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3933, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-header {
     padding: 0 0 1.75em;
   }
 
-  /* line 3937, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3937, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-branding {
     margin-top: 0;
     margin-bottom: 1.75em;
   }
 
-  /* line 3942, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3942, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-main {
     margin-bottom: 3.5em;
   }
 
-  /* line 3946, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3946, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-header,
   .entry-footer,
   .page-header,
@@ -4476,13 +4476,13 @@ p > video {
     margin-left: 0;
   }
 
-  /* line 3958, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3958, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .post-thumbnail,
   .site-main > article {
     margin-bottom: 3.5em;
   }
 
-  /* line 3963, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3963, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .entry-content blockquote.alignleft,
   .entry-content blockquote.alignright {
     border-width: 4px 0 0 0;
@@ -4491,30 +4491,30 @@ p > video {
     width: calc(50% - 0.736842105em);
   }
 
-  /* line 3971, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3971, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   body:not(.search-results) .entry-header + .entry-summary {
     margin-top: -1.473684211em;
   }
 
-  /* line 3975, ../../src/rossaforbes/sass/framework/_2016.scss */
+  /* line 3975, ../../src/rossaforbes/sass/framework/_twentysixteen.scss */
   .site-footer,
   .widecolumn {
     padding: 0;
   }
 }
 /* Background Color */
-/* line 2, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 2, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 body {
   background-color: #006b94;
 }
 
 /* Page Background Color */
-/* line 7, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 7, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 .site {
   background-color: #ffffff;
 }
 
-/* line 11, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 11, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 mark,
 ins,
 button,
@@ -4550,7 +4550,7 @@ input[type="submit"][disabled]:focus,
 }
 
 /* Link Color */
-/* line 46, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 46, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 .menu-toggle:hover,
 .menu-toggle:focus,
 a,
@@ -4583,7 +4583,7 @@ a,
   color: #942900;
 }
 
-/* line 78, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 78, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 mark,
 ins,
 button:hover,
@@ -4604,7 +4604,7 @@ input[type="submit"]:focus,
   background-color: #942900;
 }
 
-/* line 98, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 98, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 input[type="date"]:focus,
 input[type="time"]:focus,
 input[type="datetime-local"]:focus,
@@ -4626,7 +4626,7 @@ textarea:focus,
 }
 
 /* Main Text Color */
-/* line 119, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 119, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 body,
 blockquote cite,
 blockquote small,
@@ -4647,7 +4647,7 @@ blockquote small,
   color: #003448;
 }
 
-/* line 139, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 139, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 blockquote,
 .menu-toggle.toggled-on,
 .menu-toggle.toggled-on:hover,
@@ -4663,7 +4663,7 @@ blockquote,
   border-color: #003448;
 }
 
-/* line 154, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 154, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 button,
 button[disabled]:hover,
 button[disabled]:focus,
@@ -4692,12 +4692,12 @@ input[type="submit"][disabled]:focus,
 * IE8 and earlier will drop any block with CSS3 selectors.
 * Do not combine these styles with the next block.
 */
-/* line 183, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 183, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 body:not(.search-results) .entry-summary {
   color: #006b94;
 }
 
-/* line 187, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 187, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 blockquote,
 .post-password-form label,
 a:hover,
@@ -4734,14 +4734,14 @@ a:active,
   color: #006b94;
 }
 
-/* line 223, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 223, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 .widget_calendar tbody a:hover,
 .widget_calendar tbody a:focus {
   background-color: #006b94;
 }
 
 /* Border Color */
-/* line 229, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 229, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 fieldset,
 pre,
 abbr,
@@ -4785,7 +4785,7 @@ textarea,
   border-color: rgba(0, 52, 72, 0.2);
 }
 
-/* line 271, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+/* line 271, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
 hr,
 code {
   background-color: #003448;
@@ -4794,30 +4794,30 @@ code {
 }
 
 @media screen and (min-width: 56.875em) {
-  /* line 278, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+  /* line 278, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
   .main-navigation li:hover > a,
   .main-navigation li.focus > a {
     color: #942900;
   }
 
-  /* line 283, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+  /* line 283, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
   .main-navigation ul ul,
   .main-navigation ul ul li {
     border-color: rgba(0, 52, 72, 0.2);
   }
 
-  /* line 288, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+  /* line 288, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
   .main-navigation ul ul:before {
     border-top-color: rgba(0, 52, 72, 0.2);
     border-bottom-color: rgba(0, 52, 72, 0.2);
   }
 
-  /* line 293, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+  /* line 293, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
   .main-navigation ul ul li {
     background-color: #ffffff;
   }
 
-  /* line 297, ../../src/rossaforbes/sass/framework/_2016_overrides.scss */
+  /* line 297, ../../src/rossaforbes/sass/framework/_twentysixteen_overrides.scss */
   .main-navigation ul ul:after {
     border-top-color: #ffffff;
     border-bottom-color: #ffffff;
