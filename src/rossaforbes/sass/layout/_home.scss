@@ -13,36 +13,6 @@
 		display: none;
 		margin-bottom: -0.875em;
 	}
-
-	.content-block {
-		margin-top: 0;
-		padding-top: calc(3.9375em / 2);
-		padding-bottom: calc(3.9375em / 2);
-
-		&:after {
-			content: '';
-			clear: both;
-			display: block;
-		}
-
-		&:nth-child(1) {
-			background-color: $highlight-box-color;
-		}
-
-		&:nth-child(2) {
-			background-color: $additional-highlight-box-color;
-		}
-
-		&:last-child {
-			margin-bottom: 3.9375em;
-		}
-	}
-
-	.image-is-right {
-		.post-thumbnail {
-			margin-top: 1.75em;
-		}
-	}
 }
 
 /**
@@ -55,90 +25,6 @@
 			display: block;
 			margin-bottom: -1.3125em;
 		}
-
-		.content-area {
-			width: 100%;
-			float: none;
-			margin-top: -3.9375em;
-			padding-top: 3.9375em;
-		}
-
-		.sidebar {
-			float: none;
-			margin-left: 0;
-			width: 100%;
-		}
-
-		.post-thumbnail, .entry-content {
-			float: left;
-		}
-
-		.post-thumbnail {
-			width: 25%;
-		}
-
-		.entry-content {
-			width: 75%;
-		}
-
-		.image-is-left {
-			.post-thumbnail {
-				padding-right: 4.5455%;
-			}
-
-			.entry-content {
-				&:after {
-					display: block;
-					clear: both;
-					content: '';
-				}
-			}
-		}
-
-		.image-is-right {
-			.post-thumbnail {
-				margin-top: 0;
-				padding-left: 4.5455%;
-
-				&:after {
-					display: block;
-					clear: both;
-					content: '';
-				}
-			}
-		}
-
-		.search-form {
-			max-width: 460px;
-		}
-	}
-}
-
-/**
- * Between 14.1 - >= 710px and 14.3 - >= 910px
- */
-
-@media screen and (min-width: 44.375em) and (max-width: 56.875em) {
-	.home {
-		.content-block {
-			padding-left: 0;
-			padding-right: 0;
-			padding-left: 7.6923%;
-			padding-right: 7.6923%;
-		}
-
-		.sidebar {
-			padding-right: 7.6923%;
-		}
-
-		.entry-header {
-			margin-left: 0;
-		}
-
-		.post-thumbnail, .entry-content {
-			margin-left: 0;
-			margin-right: 0;
-		}
 	}
 }
 
@@ -150,22 +36,6 @@
 	.home {
 		.header-image {
 			margin-bottom: -1.75em;
-		}
-
-		.content-block {
-			margin-left: -4.5455%;
-			margin-right: -4.5455%;
-			padding-left: 4.5455%;
-			padding-right: 4.5455%;
-			width: calc(100% + (4.5455% * 2));
-		}
-
-		.post-thumbnail {
-			width: calc(100% / 3);
-		}
-
-		.entry-content {
-		    width: calc(200% / 3);
 		}
 	}
 }
