@@ -10,7 +10,7 @@
 /**
  * BASE
  */
-@import url("https://fonts.googleapis.com/css?family=Oldenburg");
+@import url("https://fonts.googleapis.com/css?family=Merienda");
 /**
  * LAYOUT
  */
@@ -206,7 +206,7 @@
  */
 /* line 1, ../../src/rossaforbes/sass/module/_header.scss */
 .site-title {
-  font-family: 'Oldenburg';
+  font-family: 'Merienda';
   font-size: 2rem;
   line-height: 1.45;
 }
