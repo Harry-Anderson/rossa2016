@@ -1,4 +1,4 @@
-This repository is a customization of the standard wordpress twentysixteen theme, and can be seen in action at the link below:
+This repository is a customization of the standard wordpress twentysixteen theme. It can be seen in action at the link below:
 
 https://rossaforbes.com/
 
