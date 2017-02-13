@@ -1,6 +1,8 @@
-This repository is a customization of the standard wordpress twentysixteen theme, and can be seen in action [here](https://rossaforbes.com/ "Rossa Forbes Blog and Web Home)  
+This repository is a customization of the standard wordpress twentysixteen theme, and can be seen in action at the link below:
 
-### Original readme text from the TwentySixteen theme:
+https://rossaforbes.com/
+
+Original readme text from the TwentySixteen theme:
 
 === Twenty Sixteen ===
 Contributors: the WordPress team
