@@ -1,3 +1,7 @@
+This repository is a customization of the standard wordpress twentysixteen theme, and can be seen in action [here](https://rossaforbes.com/ "Rossa Forbes Blog and Web Home)  
+
+### Origional readme text from the TwentySixteen theme:
+
 === Twenty Sixteen ===
 Contributors: the WordPress team
 Requires at least: WordPress 4.4
