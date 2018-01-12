@@ -36,11 +36,6 @@ get_header(); ?>
 			
 			<?php get_search_form(); ?>
 
-			<h2>Archives by Tag:</h2>
-			<ul>
-					<?php wp_list_tags(); ?>
-			</ul>
-
 			<h2>Archives by Category:</h2>
 			<ul>
 					<?php wp_list_categories(); ?>
