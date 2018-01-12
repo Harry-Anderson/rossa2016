@@ -26,7 +26,7 @@ get_header(); ?>
 			</a>
 			<?php endif; // End header image check. ?>
 
-			<a href="./book/" target="_blank" class="showcase-item showcase-book">
+			<a href="./book/" class="showcase-item showcase-book">
 				<h1>Upcoming Book: The Scenic Route</h1>
 				<h2>A Way through Madness</h2>
 				<span class="icon"></span>
