@@ -20,11 +20,23 @@ get_header(); ?>
 	<div class="front-page-wrapper">
 		<div class="showcase-wrapper">
 			<?php if ( get_header_image() ) : ?>
-			<a href="#primary" class="showcase-item showcase-book">
-				<h1>The Scenic Route</h1>
+			<a href="#primary" class="showcase-item showcase-book-header">
+				<h1>The Scenic Route: A Way through Madness</h1>
 				<h2>New Book Out Now</h2>
 			</a>
 			<?php endif; // End header image check. ?>
+
+			<a href="./book/" target="_blank" class="showcase-item showcase-book">
+				<h1>Upcoming Book: The Scenic Route</h1>
+				<h2>A Way through Madness</h2>
+				<span class="icon"></span>
+			</a>
+
+			<a href="https://www.psychologytoday.com/blog/rethinking-mental-health/201612/way-through-madness" target="_blank" class="showcase-item showcase-interview">
+				<h1>Interview</h1>
+				<h2>Psychology Today: A Way Through Madness</h2>
+				<span class="icon"></span>
+			</a>
 
 			<?php
 				$args = array( 'numberposts' => '1' );
@@ -38,17 +50,6 @@ get_header(); ?>
 				}
 				wp_reset_query();
 			?>
-
-			<a href="https://www.psychologytoday.com/blog/rethinking-mental-health/201612/way-through-madness" target="_blank" class="showcase-item showcase-interview">
-				<h1>Interview</h1>
-				<h2>Psychology Today: A Way Through Madness</h2>
-				<span class="icon"></span>
-			</a>
-
-			<a href="#" target="_blank" class="showcase-item showcase-twitter">
-				<h1>Latest Tweet</h1>
-				<span class="icon"></span>
-			</a>
 		</div>
 
 		<div id="primary" class="content-area">

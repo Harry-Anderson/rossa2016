@@ -73,7 +73,7 @@
 	}
 }
 
-.showcase-book {
+.showcase-book-header {
 	background-color: $bondi-blue;
 }
 
@@ -101,7 +101,7 @@
 	}
 }
 
-.showcase-twitter {
+.showcase-book {
 	background-color: $bahia;
 
 	&:hover {
@@ -109,7 +109,7 @@
 	}	
 	
 	.icon:before {
-		content: "\f202";
+		content: "\f444";
 	}
 }
 
@@ -125,7 +125,7 @@
 		margin-right: auto;
 	}
 
-	.showcase-book {
+	.showcase-book-header {
 		display: none;
 	}
 }
@@ -170,7 +170,7 @@
 		}
 	}
 
-	.showcase-twitter {
+	.showcase-book {
 		&:hover {
 			.icon {
 				background-color: $light-bahia;
