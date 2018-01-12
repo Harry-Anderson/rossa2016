@@ -36,6 +36,8 @@ get_header(); ?>
 			
 			<?php get_search_form(); ?>
 
+			<hr/>
+
 			<h2>Archives by Category:</h2>
 			<ul>
 					<?php wp_list_categories(); ?>
