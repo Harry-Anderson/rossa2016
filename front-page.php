@@ -99,9 +99,12 @@ get_header(); ?>
 						echo '</h2></header>';
 						$content_post = get_post($recent["ID"]);
 						$content = $content_post->post_content;
-						$content = str_replace(']]>', ']]&gt;', $content);
-						$content = str_replace("\r", "<br />", $content);
+						
 						$excerpt = wp_trim_excerpt( $content); // $excerpt contains the excerpt of the concerned post
+
+						$excerpt = str_replace(']]>', ']]&gt;', $excerpt);
+						$excerpt = str_replace("\r", "<br />", $excerpt);
+						
 						echo $excerpt;
 					echo '</div>';
 
