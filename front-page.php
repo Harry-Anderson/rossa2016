@@ -19,15 +19,8 @@ get_header(); ?>
 
 	<div class="front-page-wrapper">
 		<div class="showcase-wrapper">
-			<?php if ( get_header_image() ) : ?>
-			<a href="#primary" class="showcase-item showcase-book-header">
-				<h1>The Scenic Route: A Way through Madness</h1>
-				<h2>New Book Out Now</h2>
-			</a>
-			<?php endif; // End header image check. ?>
-
 			<a href="./book/" class="showcase-item showcase-book">
-				<h1>Upcoming Book: The Scenic Route</h1>
+				<h1>New Book: The Scenic Route</h1>
 				<h2>A Way through Madness</h2>
 				<span class="icon"></span>
 			</a>
@@ -42,7 +35,7 @@ get_header(); ?>
 				$args = array( 'numberposts' => '1' );
 				$recent_posts = wp_get_recent_posts( $args );
 				foreach( $recent_posts as $recent ) {
-					echo '<a href="' . get_permalink($recent["ID"]) . '" class="showcase-item showcase-blog">
+					echo '<a href="https://rossaforbes.com/blog/" class="showcase-item showcase-blog">
 						  <h1>Latest Blog Post</h1>
 						  <h2>' .   $recent["post_title"].'</h2>
 						  <span class="icon"></span>
@@ -93,39 +86,35 @@ get_header(); ?>
 
 			</main><!-- .site-main -->
 
-			<?php 
-				$additionalHeader = get_field('additional_header');
-				$additionalText = get_field('additional_text');
-				$additionalImage = get_field('additional_image');
+			<?php
+				$args = array( 'numberposts' => '1' );
+				$recent_posts = wp_get_recent_posts( $args );
 
-				if( !empty($additionalHeader) || !empty($additionalText) || !empty($additionalImage) ): ?>
+				echo('<div class="content-block image-is-right">');
 
-				<div class="content-block image-is-right">
-					<?php
-						if( !empty($additionalHeader) ): ?>
+				foreach( $recent_posts as $recent ) {					
+					echo '<div class="entry-content">';
+						echo '<header class="entry-header"><h2 class="entry-title">';
+							echo 'Latest Blog Post: ' . $recent['post_title'];
+						echo '</h2></header>';
+						$content_post = get_post($recent["ID"]);
+						$content = $content_post->post_content;
+						$content = apply_filters('the_content', $content);
+						$content = str_replace(']]>', ']]&gt;', $content);
+						$content = str_replace("\r", "<br />", $content);
+						echo $content;
+					echo '</div>';
 
-						<header class="entry-header">
-							<h2 class="entry-title"><?php echo $additionalHeader; ?></h2>
-						</header>
-					<?php endif; ?>
+					if (has_post_thumbnail( $recent["ID"]) ) {
+						echo '<div class="post-thumbnail">';
+						echo  get_the_post_thumbnail($recent["ID"],'thumbnail');
+						echo '</div>';	
+					}
+				}
 
-					<?php
-						if( !empty($additionalText) ): ?>
-
-						<div class="entry-content">
-							<p><?php the_field('additional_text'); ?></p>
-						</div>
-					<?php endif; ?>
-
-					<?php
-						if( !empty($additionalImage) ): ?>
-
-						<div class="post-thumbnail">
-							<img src="<?php echo $additionalImage['url']; ?>" alt="<?php echo $additionalImage['alt']; ?>" />
-						</div>
-					<?php endif; ?>
-				</div>
-			<?php endif; ?>
+				wp_reset_query();
+			?>
+			
 		</div><!-- .content-area -->
 		
 		<?php get_sidebar(); ?>
