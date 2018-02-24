@@ -30,9 +30,6 @@ get_header(); ?>
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-
-			<?php the_post(); ?>
-			<h1 class="entry-title"><?php the_title(); ?></h1>
 			
 			<?php get_search_form(); ?>
 
