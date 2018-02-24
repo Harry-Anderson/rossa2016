@@ -99,10 +99,10 @@ get_header(); ?>
 						echo '</h2></header>';
 						$content_post = get_post($recent["ID"]);
 						$content = $content_post->post_content;
-						$content = apply_filters('wp_trim_excerpt', $content);
 						$content = str_replace(']]>', ']]&gt;', $content);
 						$content = str_replace("\r", "<br />", $content);
-						echo $content;
+						$excerpt = wp_trim_excerpt( $content); // $excerpt contains the excerpt of the concerned post
+						echo $excerpt;
 					echo '</div>';
 
 					if (has_post_thumbnail( $recent["ID"]) ) {
