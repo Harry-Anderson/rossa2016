@@ -32,7 +32,7 @@ get_header(); ?>
 			</a>
 
 			<?php
-				$args = array( 'numberposts' => '1' );
+				$args = array( 'numberposts' => '1', 'post_status' => 'publish');
 				$recent_posts = wp_get_recent_posts( $args );
 				foreach( $recent_posts as $recent ) {
 					echo '<a href="https://rossaforbes.com/blog/" class="showcase-item showcase-blog">
