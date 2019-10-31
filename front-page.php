@@ -22,23 +22,20 @@ get_header(); ?>
 			<a href="./book/" class="showcase-item showcase-book">
 				<h1>New Book: The Scenic Route</h1>
 				<h2>A Way through Madness</h2>
-				<span class="icon"></span>
 			</a>
 
-			<a href="https://www.psychologytoday.com/blog/rethinking-mental-health/201612/way-through-madness" target="_blank" class="showcase-item showcase-interview">
-				<h1>Interview</h1>
-				<h2>Psychology Today: A Way Through Madness</h2>
-				<span class="icon"></span>
+			<a href="https://rossaforbes.com/blog/about/" class="showcase-item showcase-interview">
+				<h1>Rossa Forbes</h1>
+				<h2>About the author</h2>
 			</a>
 
 			<?php
 				$args = array( 'numberposts' => '1', 'post_status' => 'publish');
 				$recent_posts = wp_get_recent_posts( $args );
 				foreach( $recent_posts as $recent ) {
-					echo '<a href="https://rossaforbes.com/blog/" class="showcase-item showcase-blog">
+					echo '<a href="' . get_permalink($recent["ID"]) . '" class="showcase-item showcase-blog">
 						  <h1>Latest Blog Post</h1>
 						  <h2>' .   $recent["post_title"].'</h2>
-						  <span class="icon"></span>
 						  </a>';
 				}
 				wp_reset_query();
@@ -85,41 +82,6 @@ get_header(); ?>
 			?>
 
 			</main><!-- .site-main -->
-
-			<?php
-				$args = array( 'numberposts' => '1' );
-				$recent_posts = wp_get_recent_posts( $args );
-
-				echo('<div class="content-block image-is-right">');
-
-				foreach( $recent_posts as $recent ) {					
-					echo '<div class="entry-content">';
-						echo '<header class="entry-header"><h2 class="entry-title">';
-							echo 'Latest Blog Post: ' . $recent['post_title'];
-						echo '</h2></header>';
-						
-						$content_post = get_post($recent["ID"]);
-						$content = $content_post->post_content;
-						
-						$excerpt = wp_trim_excerpt($content); // $excerpt contains the excerpt of the concerned post
-
-						$excerpt = str_replace(']]>', ']]&gt;', $excerpt);
-						$excerpt = str_replace("\r", "<br />", $excerpt);
-						
-						echo $excerpt;
-					echo '</div>';
-
-					if (has_post_thumbnail( $recent["ID"]) ) {
-						echo '<div class="post-thumbnail">';
-						echo  get_the_post_thumbnail($recent["ID"],'thumbnail');
-						echo '</div>';	
-					}
-				}
-
-				wp_reset_query();
-			?>
-			
-		</div><!-- .content-area -->
 		
 		<br/>
 
